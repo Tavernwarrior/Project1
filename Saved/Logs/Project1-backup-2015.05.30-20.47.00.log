@@ -1,0 +1,1596 @@
+﻿Log file open, 05/30/15 17:33:17
+LogInit:Display: Running engine for game: Project1
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.30-15.33.17:694][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.05.30-15.33.17:770][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.30-15.33.17:847][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.30-15.33.17:868][  0]LogInit: Object subsystem initialized
+[2015.05.30-15.33.17:870][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.30-15.33.17:870][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Tim/Documents/Unreal Projects/Project1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.30-15.33.17:870][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.30-15.33.17:870][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Tim/Documents/Unreal Projects/Project1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.30-15.33.17:870][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.30-15.33.17:870][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Tim/Documents/Unreal Projects/Project1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.30-15.33.17:871][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.30-15.33.17:871][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.30-15.33.17:888][  0]LogInit: Computer: TIM-PC
+[2015.05.30-15.33.17:888][  0]LogInit: User: Tim
+[2015.05.30-15.33.17:888][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.05.30-15.33.17:888][  0]LogInit: High frequency timer resolution =3.117197 MHz
+[2015.05.30-15.33.17:888][  0]LogMemory: Memory total: Physical=9.9GB (10GB approx) Virtual=8192.0GB
+[2015.05.30-15.33.17:888][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.30-15.33.17:888][  0]LogMemory: Process Physical Memory: 46.86 MB used, 46.86 MB peak
+[2015.05.30-15.33.17:888][  0]LogMemory: Process Virtual Memory: 23.07 MB used, 23.07 MB peak
+[2015.05.30-15.33.17:888][  0]LogMemory: Physical Memory: 3949.69 MB used, 10167.08 MB total
+[2015.05.30-15.33.17:888][  0]LogMemory: Virtual Memory: 276.89 MB used, 8388608.00 MB total
+[2015.05.30-15.33.17:975][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.05.30-15.33.17:975][  0]LogD3D11RHI: Adapter has 4027MB of dedicated video memory, 0MB of dedicated system memory, and 4827MB of shared system memory, 1 output[s]
+[2015.05.30-15.33.17:975][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.30-15.33.17:987][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.30-15.33.18:005][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.30-15.33.18:363][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.05.30-15.33.18:631][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.30-15.33.18:631][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.30-15.33.18:808][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.30-15.33.24:647][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.30-15.33.25:874][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.30-15.33.26:010][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.30-15.33.26:503][  0]LogDerivedDataCache: Loaded boot cache 0.49s 39MB C:/Users/Tim/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.30-15.33.26:503][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tim/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.30-15.33.26:503][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tim/Documents/Unreal Projects/Project1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.30-15.33.26:503][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.30-15.33.26:682][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.30-15.33.26:694][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.30-15.33.28:829][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.30-15.33.28:829][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.30-15.33.29:473][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.30-15.33.29:879][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.30-15.33.46:736][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.30-15.33.47:428][  0]SourceControl: Info Source control is disabled
+[2015.05.30-15.33.47:428][  0]SourceControl: Info Source control is disabled
+[2015.05.30-15.33.47:428][  0]SourceControl: Info Source control is disabled
+[2015.05.30-15.33.47:428][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.30-15.33.47:428][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.30-15.33.47:451][  0]SourceControl: Info Source control is disabled
+[2015.05.30-15.33.48:251][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.30-15.33.48:251][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.05.30-15.33.48:457][  0]LogEngine: Initializing Engine...
+[2015.05.30-15.33.51:717][  0]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.30-15.33.51:742][  0]LogInit: FAudioDevice initialized.
+[2015.05.30-15.33.51:838][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.30-15.33.51:873][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Tim/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.30-15.33.51:884][  0]LogInit: Texture streaming: Enabled
+[2015.05.30-15.33.52:075][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.30-15.33.52:075][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.30-15.33.52:075][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.30-15.33.52:075][  0]LogAnalytics: SetUserId c5fd52a24d6850d1c633029fc9284b73|9f6f6a0632e64490ab8dba32aeb92367|02faca1b-0e02-495b-954f-51d2c87ed7d6
+[2015.05.30-15.33.52:076][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.30-15.33.52:376][  0]LogInit: Transaction tracking system initialized
+[2015.05.30-15.33.52:968][  0]BlueprintLog: New page: Editor Load
+[2015.05.30-15.33.53:048][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.05.30-15.33.53:049][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.30-15.33.54:351][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.30-15.33.54:992][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.30-15.33.55:760][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.05.30-15.33.55:760][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.05.30-15.33.55:760][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2015.05.30-15.33.55:870][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.30-15.33.55:871][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.30-15.33.55:961][  0]LogConsoleResponse:Display: 
+[2015.05.30-15.33.56:234][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.30-15.33.56:972][  0]SourceControl: Info Source control is disabled
+[2015.05.30-15.34.36:639][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.30-15.34.36:658][  0]LightingResults: New page: Lighting Build
+[2015.05.30-15.34.36:718][  0]MapCheck: New page: Map Check
+[2015.05.30-15.34.36:718][  0]LightingResults: New page: Lighting Build
+[2015.05.30-15.34.36:751][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017606520
+[2015.05.30-15.34.36:887][  0]LogLinker:Warning: SkeletalMeshComponent_2 has an inappropriate outermost, it was probably saved with a deprecated outer.
+[2015.05.30-15.34.36:888][  0]LogLinker:Warning: SkeletalMeshComponent_2 has an inappropriate outermost, it was probably saved with a deprecated outer.
+[2015.05.30-15.34.37:399][  0]LogLinker:Warning: SkeletalMeshComponent_2 has an inappropriate outermost, it was probably saved with a deprecated outer.
+[2015.05.30-15.34.38:609][  0]LoadErrors:Error: Error Failed import for SkeletalMeshComponent
+[2015.05.30-15.34.39:066][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.30-15.34.40:361][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-15.34.40:362][  0]Cmd: MAP CHECKDEP
+[2015.05.30-15.34.40:363][  0]MapCheck: New page: FirstPersonExampleMap - May 30, 2015, 7:34:40 PM
+[2015.05.30-15.34.40:574][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 210.971ms to complete.
+[2015.05.30-15.34.40:574][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.935
+[2015.05.30-15.34.40:807][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2ab0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_3e68_0///////STATCAT_Advanced////
+[2015.05.30-15.34.40:807][  0]LogCollectionManager: Loaded 0 collections in 0.003811 seconds
+[2015.05.30-15.34.40:835][  0]LogContentBrowser: Native class hierarchy populated in 0.0282 seconds. Added 1696 classes and 261 folders.
+[2015.05.30-15.34.40:953][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0067 seconds. Added 1 classes and 2 folders.
+[2015.05.30-15.34.41:065][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.30-15.34.41:066][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.30-15.34.41:075][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.30-15.34.41:103][  0]LogLoad: Full Startup: 86.43 seconds (BP compile: 0.59 seconds)
+[2015.05.30-15.34.41:158][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP'
+[2015.05.30-15.34.41:375][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.30-15.34.41:516][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2015.05.30-15.34.42:026][  9]LogAssetRegistry: Asset discovery search completed in 48.9885 seconds
+[2015.05.30-15.35.10:369][855]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.05.30-15.35.17:136][201]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.30-15.35.17:136][201]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 7:35:17 PM)
+[2015.05.30-15.35.17:180][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043728s)
+[2015.05.30-15.35.17:187][201]LogPlayLevel: PIE: World Init took: (0.006581s)
+[2015.05.30-15.35.17:187][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.050675s)
+[2015.05.30-15.35.17:411][201]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-15.35.17:415][201]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-15.35.17:432][201]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-17.35.17
+[2015.05.30-15.35.17:434][201]LogWorld: Bringing up level for play took: 0.018794
+[2015.05.30-15.35.17:438][201]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.216
+[2015.05.30-15.35.22:865][569]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019EC2660
+[2015.05.30-15.36.35:242][864]LogRenderer:Warning: Reallocating scene render targets to support 1208x712 (Frame:6946).
+[2015.05.30-15.36.54:823][399]BlueprintLog: New page: Compile Wohnhaus
+[2015.05.30-15.36.54:962][399]BlueprintEditorCompileResults: Info [0220.29] Compile of Wohnhaus successful! [in 138 ms]
+[2015.05.30-15.36.59:912][633]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.40.38:289][314]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-15.40.38:646][314]BlueprintEditorCompileResults: Info [0443.97] Compile of FirstPersonCharacter successful! [in 355 ms]
+[2015.05.30-15.40.38:652][314]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.40.41:330][448]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-15.40.41:338][448]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-15.40.41:494][448]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-15.40.41:818][448]LogPlayLevel: PIE:  Blueprint regeneration took 488 ms (2 blueprints)
+[2015.05.30-15.40.41:819][448]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 7:40:41 PM)
+[2015.05.30-15.40.41:860][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041114s)
+[2015.05.30-15.40.41:862][448]LogPlayLevel: PIE: World Init took: (0.001433s)
+[2015.05.30-15.40.41:862][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.042875s)
+[2015.05.30-15.40.41:913][448]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-15.40.41:916][448]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-15.40.41:933][448]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-17.40.41
+[2015.05.30-15.40.41:935][448]LogWorld: Bringing up level for play took: 0.017617
+[2015.05.30-15.40.41:938][448]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.713
+[2015.05.30-15.40.41:979][449]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.06:329][153]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004859B1A0
+[2015.05.30-15.41.19:692][ 42]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-15.41.20:010][ 42]BlueprintEditorCompileResults: Info [0485.34] Compile of FirstPersonCharacter successful! [in 317 ms]
+[2015.05.30-15.41.20:018][ 42]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.24:551][338]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-15.41.24:558][338]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-15.41.24:704][338]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-15.41.25:014][338]LogPlayLevel: PIE:  Blueprint regeneration took 463 ms (2 blueprints)
+[2015.05.30-15.41.25:014][338]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 7:41:25 PM)
+[2015.05.30-15.41.25:050][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035078s)
+[2015.05.30-15.41.25:051][338]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2015.05.30-15.41.25:052][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.036786s)
+[2015.05.30-15.41.25:103][338]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-15.41.25:106][338]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-15.41.25:123][338]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-17.41.25
+[2015.05.30-15.41.25:124][338]LogWorld: Bringing up level for play took: 0.017901
+[2015.05.30-15.41.25:127][338]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.094
+[2015.05.30-15.41.25:169][339]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.34:715][ 18]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.34:715][ 18]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.34:715][ 18]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.34:715][ 18]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.34:715][ 18]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.34:715][ 18]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.36:863][169]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.38:963][326]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.40:599][449]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.45:024][771]Set new viewmode: Wireframe
+[2015.05.30-15.41.56:535][675]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.56:548][676]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.56:548][676]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.56:548][676]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.56:548][676]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.56:548][676]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.56:548][676]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.56:548][676]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.41.56:548][676]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.04:423][263]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.04:423][263]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.04:423][263]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.04:423][263]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.04:423][263]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.04:423][263]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.04:423][263]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.04:435][264]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.04:435][264]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.11:740][855]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.11:740][855]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.11:740][855]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.11:740][855]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.11:741][855]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.11:741][855]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.11:741][855]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.11:741][855]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.11:741][855]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.11:741][855]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.11:741][855]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.11:741][855]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.12:153][889]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.12:453][914]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.12:685][933]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.12:865][948]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.13:056][964]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.13:228][978]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.13:399][992]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.13:572][  6]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.13:731][ 19]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.13:915][ 34]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.14:065][ 46]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.14:213][ 58]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.14:363][ 70]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.14:538][ 84]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.14:688][ 96]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.14:862][110]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.15:023][123]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.15:181][136]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.15:338][149]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.15:467][160]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.15:625][173]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.15:782][186]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.16:556][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F766E80
+[2015.05.30-15.42.37:170][834]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.46:819][679]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.42.46:882][680]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.43.35:500][608]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-15.43.35:856][608]BlueprintEditorCompileResults: Info [0621.18] Compile of FirstPersonCharacter successful! [in 355 ms]
+[2015.05.30-15.43.35:864][608]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.43.37:531][725]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-15.43.37:537][725]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-15.43.37:679][725]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-15.43.37:999][725]LogPlayLevel: PIE:  Blueprint regeneration took 469 ms (2 blueprints)
+[2015.05.30-15.43.38:000][725]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 7:43:38 PM)
+[2015.05.30-15.43.38:039][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038573s)
+[2015.05.30-15.43.38:041][725]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2015.05.30-15.43.38:041][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.040238s)
+[2015.05.30-15.43.38:105][725]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-15.43.38:107][725]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-15.43.38:123][725]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-17.43.38
+[2015.05.30-15.43.38:125][725]LogWorld: Bringing up level for play took: 0.016520
+[2015.05.30-15.43.38:128][725]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.905
+[2015.05.30-15.43.38:168][726]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.43.47:469][353]Set new viewmode: Wireframe
+[2015.05.30-15.43.51:068][608]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000507BADE0
+[2015.05.30-15.43.52:297][672]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-15.43.52:303][672]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-15.43.52:429][672]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-15.43.52:736][672]LogPlayLevel: PIE:  Blueprint regeneration took 439 ms (2 blueprints)
+[2015.05.30-15.43.52:736][672]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 7:43:52 PM)
+[2015.05.30-15.43.52:784][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047382s)
+[2015.05.30-15.43.52:786][672]LogPlayLevel: PIE: World Init took: (0.001379s)
+[2015.05.30-15.43.52:786][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.049088s)
+[2015.05.30-15.43.52:840][672]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-15.43.52:843][672]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-15.43.52:863][672]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-17.43.52
+[2015.05.30-15.43.52:865][672]LogWorld: Bringing up level for play took: 0.021310
+[2015.05.30-15.43.52:871][672]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.352
+[2015.05.30-15.43.52:926][673]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.43.55:009][811]Set new viewmode: Wireframe
+[2015.05.30-15.44.10:215][ 30]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B4C9940
+[2015.05.30-15.44.28:985][473]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-15.44.29:319][473]BlueprintEditorCompileResults: Info [0674.64] Compile of FirstPersonCharacter successful! [in 333 ms]
+[2015.05.30-15.44.29:328][473]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.30:944][580]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-15.44.30:951][580]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-15.44.31:092][580]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-15.44.31:411][580]LogPlayLevel: PIE:  Blueprint regeneration took 466 ms (2 blueprints)
+[2015.05.30-15.44.31:411][580]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 7:44:31 PM)
+[2015.05.30-15.44.31:455][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042910s)
+[2015.05.30-15.44.31:456][580]LogPlayLevel: PIE: World Init took: (0.001654s)
+[2015.05.30-15.44.31:457][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.045067s)
+[2015.05.30-15.44.31:508][580]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-15.44.31:511][580]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-15.44.31:527][580]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-17.44.31
+[2015.05.30-15.44.31:528][580]LogWorld: Bringing up level for play took: 0.016813
+[2015.05.30-15.44.31:532][580]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.31
+[2015.05.30-15.44.31:574][581]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.41:814][293]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:091][ 90]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:091][ 90]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:108][ 91]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:124][ 92]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:193][ 96]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:255][100]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:379][107]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:447][111]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:480][113]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:497][114]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:541][117]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:945][143]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:945][143]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:978][145]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:995][146]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.54:995][146]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.55:073][151]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.55:120][154]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.55:135][155]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.55:183][158]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.57:631][321]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.57:646][322]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.57:660][323]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.57:660][323]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.57:674][324]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.57:674][324]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.57:674][324]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.57:674][324]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.57:821][334]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.57:893][339]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.57:951][343]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.58:024][348]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:080][419]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:281][429]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:314][431]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:314][431]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:374][435]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:451][440]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:512][444]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:585][449]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:585][449]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:648][453]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:664][454]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:736][459]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:947][474]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.44.59:987][477]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.00:409][507]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.00:625][522]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.00:701][527]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.02:235][618]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.02:786][654]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.03:073][672]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.03:142][676]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.03:142][676]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.03:159][677]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.03:288][685]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.03:393][692]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.03:468][697]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.04:099][739]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.04:387][758]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.11:048][203]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.11:105][207]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.11:134][209]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.11:177][212]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.11:192][213]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.11:207][214]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.11:207][214]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.11:501][232]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.11:863][256]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.13:002][331]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:071][400]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:325][417]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:354][419]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:355][419]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:355][419]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:355][419]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:415][423]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:415][423]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:429][424]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:457][426]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:546][432]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:617][437]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:617][437]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:647][439]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.14:705][443]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.15:872][518]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.17:566][625]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.17:611][628]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.17:629][629]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.17:645][630]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.18:142][660]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.18:225][665]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.18:242][666]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.18:452][680]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.18:685][696]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.18:929][712]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.18:929][712]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.18:945][713]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.18:996][716]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.19:026][718]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.19:137][725]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.19:137][725]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.19:188][728]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.21:662][885]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.21:726][889]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.21:773][891]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.21:773][891]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.21:791][892]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.21:858][896]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.21:906][899]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.22:164][915]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.22:987][966]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.23:196][980]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.23:819][ 22]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.23:852][ 24]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.23:903][ 27]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.23:951][ 30]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.23:967][ 31]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.23:997][ 33]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.45.24:487][ 56]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000AEE67A0
+[2015.05.30-15.46.08:076][330]BlueprintLog: New page: Compile Wohnhaus
+[2015.05.30-15.46.08:231][330]BlueprintEditorCompileResults: Info [0773.56] Compile of Wohnhaus successful! [in 155 ms]
+[2015.05.30-15.46.08:240][330]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.48.41:860][448]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.50.37:043][399]BlueprintLog: New page: Compile Wohnhaus
+[2015.05.30-15.50.37:264][399]BlueprintEditorCompileResults: Info [1042.59] Compile of Wohnhaus successful! [in 220 ms]
+[2015.05.30-15.50.37:273][399]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.50.39:390][533]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-15.50.39:416][533]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-15.50.39:719][533]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-15.50.39:843][533]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-15.50.40:053][533]LogPlayLevel: PIE:  Blueprint regeneration took 663 ms (3 blueprints)
+[2015.05.30-15.50.40:053][533]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 7:50:40 PM)
+[2015.05.30-15.50.40:093][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039583s)
+[2015.05.30-15.50.40:095][533]LogPlayLevel: PIE: World Init took: (0.001519s)
+[2015.05.30-15.50.40:095][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.041779s)
+[2015.05.30-15.50.40:147][533]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-15.50.40:150][533]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-15.50.40:167][533]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-17.50.40
+[2015.05.30-15.50.40:169][533]LogWorld: Bringing up level for play took: 0.017911
+[2015.05.30-15.50.40:172][533]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.949
+[2015.05.30-15.50.40:224][534]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.50.52:639][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000AEE4220
+[2015.05.30-15.52.19:470][932]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.52.24:788][343]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.52.30:252][702]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.54.37:378][ 12]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-15.54.37:787][ 12]BlueprintEditorCompileResults: Info [1283.11] Compile of FirstPersonCharacter successful! [in 406 ms]
+[2015.05.30-15.54.37:796][ 12]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.54.44:703][393]BlueprintLog: New page: Compile Wohnhaus
+[2015.05.30-15.54.44:955][393]BlueprintEditorCompileResults: Info [1290.28] Compile of Wohnhaus successful! [in 251 ms]
+[2015.05.30-15.54.44:965][393]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.54.46:356][473]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-15.54.46:741][473]BlueprintEditorCompileResults: Info [1292.06] Compile of FirstPersonCharacter successful! [in 384 ms]
+[2015.05.30-15.54.46:751][473]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.54.49:271][602]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-15.54.49:279][602]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-15.54.49:434][602]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-15.54.49:594][602]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-15.54.49:963][602]LogPlayLevel: PIE:  Blueprint regeneration took 691 ms (3 blueprints)
+[2015.05.30-15.54.49:963][602]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 7:54:49 PM)
+[2015.05.30-15.54.50:002][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038420s)
+[2015.05.30-15.54.50:003][602]LogPlayLevel: PIE: World Init took: (0.001323s)
+[2015.05.30-15.54.50:004][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.040229s)
+[2015.05.30-15.54.50:056][602]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-15.54.50:060][602]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-15.54.50:075][602]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-17.54.50
+[2015.05.30-15.54.50:077][602]LogWorld: Bringing up level for play took: 0.016756
+[2015.05.30-15.54.50:080][602]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.856
+[2015.05.30-15.54.50:140][603]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.55.04:372][527]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.55.07:850][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000569CC400
+[2015.05.30-15.57.33:412][404]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-15.57.33:420][404]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-15.57.33:648][404]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-15.57.33:866][404]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-15.57.34:365][404]LogPlayLevel: PIE:  Blueprint regeneration took 953 ms (3 blueprints)
+[2015.05.30-15.57.34:366][404]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 7:57:34 PM)
+[2015.05.30-15.57.34:415][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048314s)
+[2015.05.30-15.57.34:417][404]LogPlayLevel: PIE: World Init took: (0.001810s)
+[2015.05.30-15.57.34:417][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.050583s)
+[2015.05.30-15.57.34:520][404]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-15.57.34:524][404]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-15.57.34:548][404]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-17.57.34
+[2015.05.30-15.57.34:550][404]LogWorld: Bringing up level for play took: 0.024820
+[2015.05.30-15.57.34:554][404]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.33
+[2015.05.30-15.57.34:673][405]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.58.02:520][557]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.58.04:331][627]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-15.58.10:034][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005EF34360
+[2015.05.30-15.58.31:375][904]LogLinker:Warning: SkeletalMeshComponent_2 has an inappropriate outermost, it was probably saved with a deprecated outer.
+[2015.05.30-15.58.44:231][904]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Modelle/Laubbaum.fbx)
+[2015.05.30-15.58.44:240][904]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.30-15.58.44:240][904]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.05.30-15.58.44:240][904]LogFbx: ItemName: Model, ItemCount : 1
+[2015.05.30-15.58.50:778][904]LogFbx: Loading FBX Scene from ../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Modelle/Laubbaum.fbx
+[2015.05.30-15.58.50:789][904]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.30-15.58.50:793][904]LogFbx:Warning: Triangulating static mesh Cylinder
+[2015.05.30-15.58.50:902][904]LogFbx: == Initial material list:
+[2015.05.30-15.58.50:902][904]LogFbx: 0: None
+[2015.05.30-15.58.50:902][904]LogFbx: == After sorting:
+[2015.05.30-15.58.50:902][904]LogFbx: 0: None
+[2015.05.30-15.58.50:902][904]LogFbx: == Mapping table:
+[2015.05.30-15.58.50:902][904]LogFbx:   sort 0 -> 0
+[2015.05.30-15.58.50:905][904]LogStaticMesh: Building static mesh Laubbaum...
+[2015.05.30-15.58.50:923][904]LogStaticMesh: Built static mesh [18.432585ms] /Game/FirstPersonBP/Blueprints/Laubbaum.Laubbaum
+[2015.05.30-15.58.50:991][904]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.30-15.58.50:992][904]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.05.30-15.58.56:364][ 31]LogRenderer:Warning: Reallocating scene render targets to support 1432x928 (Frame:33306).
+[2015.05.30-15.59.27:400][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Laubbaum" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Laubbaum.uasset" SILENT=true
+[2015.05.30-15.59.27:647][584]LogSavePackage: Save=242.405914ms
+[2015.05.30-15.59.27:647][584]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Laubbaum82315730488929F71316DFB7C089E03D.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Laubbaum.uasset'
+[2015.05.30-16.00.37:470][400]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/NadelBaum_BP.NadelBaum_BP:UserConstructionScript.K2Node_FunctionEntry_276' ref from Metadata '/Game/FirstPersonBP/Blueprints/NadelBaum.PackageMetaData'
+[2015.05.30-16.00.37:470][400]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/NadelBaum_BP.NadelBaum_BP:EventGraph.K2Node_Event_208' ref from Metadata '/Game/FirstPersonBP/Blueprints/NadelBaum.PackageMetaData'
+[2015.05.30-16.00.37:470][400]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/NadelBaum_BP.NadelBaum_BP_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/NadelBaum.PackageMetaData'
+[2015.05.30-16.00.37:471][400]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/NadelBaum_BP.NadelBaum_BP:EventGraph.K2Node_Event_207' ref from Metadata '/Game/FirstPersonBP/Blueprints/NadelBaum.PackageMetaData'
+[2015.05.30-16.00.37:471][400]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/NadelBaum_BP.NadelBaum_BP:EventGraph.K2Node_Event_209' ref from Metadata '/Game/FirstPersonBP/Blueprints/NadelBaum.PackageMetaData'
+[2015.05.30-16.00.37:471][400]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/NadelBaum_BP.SKEL_NadelBaum_BP_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/NadelBaum.PackageMetaData'
+[2015.05.30-16.00.38:075][400]LogSavePackage: Save=392.620361ms
+[2015.05.30-16.00.38:075][400]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/NadelBaum_BPC04D95F74D3942ACBCECF2A64A87E190.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/NadelBaum_BP.uasset'
+[2015.05.30-16.00.44:243][452]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Modelle/Nadelbaum.fbx)
+[2015.05.30-16.00.44:248][452]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.05.30-16.00.44:248][452]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.05.30-16.00.44:248][452]LogFbx: ItemName: Model, ItemCount : 1
+[2015.05.30-16.00.53:683][452]LogFbx: Loading FBX Scene from ../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Modelle/Nadelbaum.fbx
+[2015.05.30-16.00.53:699][452]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.30-16.00.53:704][452]LogFbx:Warning: Triangulating static mesh Cylinder
+[2015.05.30-16.00.54:190][452]LogFbx: == Initial material list:
+[2015.05.30-16.00.54:190][452]LogFbx: 0: None
+[2015.05.30-16.00.54:190][452]LogFbx: == After sorting:
+[2015.05.30-16.00.54:190][452]LogFbx: 0: None
+[2015.05.30-16.00.54:190][452]LogFbx: == Mapping table:
+[2015.05.30-16.00.54:190][452]LogFbx:   sort 0 -> 0
+[2015.05.30-16.00.54:194][452]LogStaticMesh: Building static mesh Nadelbaum...
+[2015.05.30-16.00.54:236][452]LogStaticMesh: Built static mesh [43.161854ms] /Game/FirstPersonBP/Blueprints/Nadelbaum.Nadelbaum
+[2015.05.30-16.00.54:370][452]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.30-16.00.54:371][452]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.05.30-16.01.37:568][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Nadelbaum" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Nadelbaum.uasset" SILENT=true
+[2015.05.30-16.01.37:941][388]LogSavePackage: Save=368.673523ms
+[2015.05.30-16.01.37:941][388]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Nadelbaum552E470E4BA8BEF70B0A26856FE0C38B.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Nadelbaum.uasset'
+[2015.05.30-16.03.26:962][428]LogSCSEditor: Calling UpdateTree() from Tick().
+[2015.05.30-16.03.35:052][708]BlueprintLog: New page: Compile Baum
+[2015.05.30-16.03.35:073][708]LogBlueprint:Warning: [compiler] Warning CreatePinForVariable: 'Cylinder' variable not found. Base class was probably changed.
+[2015.05.30-16.03.35:075][708]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Cylinder" in 'Baum_C'.
+Make sure 'Baum_C' has been compiled for  Set Visibility 
+[2015.05.30-16.03.35:075][708]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.05.30-16.03.35:270][708]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Cylinder' for 'StaticMesh' in BlueprintGeneratedClass 'REINST_NadelBaum_BP_C_294' (it may have been removed)
+[2015.05.30-16.03.35:274][708]LogBlueprint:Warning: ValidateTemplates '/Game/FirstPersonBP/Blueprints/NadelBaum_BP.NadelBaum_BP_C:InheritableComponentHandler': overriden template is invalid - component 'Cylinder' from '/Game/FirstPersonBP/Blueprints/Baum.Baum_C'
+[2015.05.30-16.03.35:277][708]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Cylinder' for 'StaticMesh' in BlueprintGeneratedClass 'NadelBaum_BP_C' (it may have been removed)
+[2015.05.30-16.03.35:453][708]LogBlueprint:Warning: CreateOverridenComponentTemplate '/Game/FirstPersonBP/Blueprints/NadelBaum_BP.NadelBaum_BP_C:InheritableComponentHandler': cannot find archetype for component 'Cylinder' from '/Game/FirstPersonBP/Blueprints/Baum.Baum_C'
+[2015.05.30-16.03.35:545][708]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh' in BlueprintGeneratedClass 'REINST_NadelBaum_BP_C_300' (it may have been removed)
+[2015.05.30-16.03.35:852][708]LogBlueprint:Warning: [compiler] Warning [1821.18] Compile of Baum failed. 1 Fatal Issue(s) 2 Warning(s) [in 799 ms]
+[2015.05.30-16.03.35:853][708]BlueprintEditorCompileResults:Warning: Warning CreatePinForVariable: 'Cylinder' variable not found. Base class was probably changed.
+[2015.05.30-16.03.35:853][708]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Cylinder" in 'Baum_C'.
+Make sure 'Baum_C' has been compiled for  Set Visibility 
+[2015.05.30-16.03.35:853][708]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.05.30-16.03.35:853][708]BlueprintEditorCompileResults:Warning: Warning [1821.18] Compile of Baum failed. 1 Fatal Issue(s) 2 Warning(s) [in 799 ms]
+[2015.05.30-16.03.35:859][708]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.03.50:327][448]LogBlueprint:Warning: Blueprint NadelBaum_BP (child of/implements Baum) has a component variable with a conflicting name (StaticMesh). Changing to StaticMesh_0.
+[2015.05.30-16.04.16:059][554]BlueprintLog: New page: Compile Baum
+[2015.05.30-16.04.16:225][554]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Scene' for 'StaticMesh_0' in BlueprintGeneratedClass 'REINST_NadelBaum_BP_C_312' (it may have been removed)
+[2015.05.30-16.04.16:565][554]BlueprintEditorCompileResults: Info [1861.89] Compile of Baum successful! [in 506 ms]
+[2015.05.30-16.04.16:585][554]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.04.54:133][936]BlueprintLog: New page: Compile NadelBaum_BP
+[2015.05.30-16.04.54:354][936]BlueprintEditorCompileResults: Info [1899.68] Compile of NadelBaum_BP successful! [in 220 ms]
+[2015.05.30-16.04.55:187][958]LogSavePackage: Save=44.030903ms
+[2015.05.30-16.04.55:187][958]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/NadelBaum_BP09EFB1EC4DD335826834B991A3653423.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/NadelBaum_BP.uasset'
+[2015.05.30-16.05.13:203][265]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.05.30-16.05.43:141][202]BlueprintLog: New page: Compile LaubBaum_BP
+[2015.05.30-16.05.43:364][202]BlueprintEditorCompileResults: Info [1948.69] Compile of LaubBaum_BP successful! [in 222 ms]
+[2015.05.30-16.05.44:053][219]LogSavePackage: Save=42.302750ms
+[2015.05.30-16.05.44:053][219]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/LaubBaum_BP550F11C743AB78846C27EB8CE6F5E719.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/LaubBaum_BP.uasset'
+[2015.05.30-16.06.07:051][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.05.30-16.06.07:873][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.05.30-16.06.10:742][847]LogEditorActor: Deleted Actor: Baum_C
+[2015.05.30-16.06.10:879][847]LogEditorActor: Deleted 1 Actors (0.140 secs)
+[2015.05.30-16.06.12:012][885]LogEditorActor: Deleted Actor: Baum_C
+[2015.05.30-16.06.12:144][885]LogEditorActor: Deleted 1 Actors (0.133 secs)
+[2015.05.30-16.06.16:265][994]LogLinker:Warning: SkeletalMeshComponent_2 has an inappropriate outermost, it was probably saved with a deprecated outer.
+[2015.05.30-16.06.16:282][994]LoadErrors:Error: Error Failed import for StaticMeshComponent
+[2015.05.30-16.06.24:676][160]LoadErrors:Error: Error Failed import for StaticMeshComponent
+[2015.05.30-16.06.29:774][300]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-16.06.29:797][300]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-16.06.30:243][300]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-16.06.30:463][300]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-16.06.31:269][300]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-16.06.31:388][300]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-16.06.31:634][300]LogPlayLevel: PIE:  Blueprint regeneration took 1860 ms (5 blueprints)
+[2015.05.30-16.06.31:634][300]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 8:06:31 PM)
+[2015.05.30-16.06.31:678][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043174s)
+[2015.05.30-16.06.31:680][300]LogPlayLevel: PIE: World Init took: (0.001640s)
+[2015.05.30-16.06.31:680][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.045286s)
+[2015.05.30-16.06.31:751][300]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-16.06.31:755][300]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-16.06.31:776][300]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-18.06.31
+[2015.05.30-16.06.31:778][300]LogWorld: Bringing up level for play took: 0.021873
+[2015.05.30-16.06.31:781][300]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.557
+[2015.05.30-16.06.31:885][301]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.06.55:580][133]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000129B8D60
+[2015.05.30-16.07.13:410][546]LogLinker:Warning: SkeletalMeshComponent_2 has an inappropriate outermost, it was probably saved with a deprecated outer.
+[2015.05.30-16.07.13:424][546]LoadErrors:Error: Error Failed import for StaticMeshComponent
+[2015.05.30-16.07.13:684][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Laubbaum" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Meshes/Laubbaum.uasset" SILENT=true
+[2015.05.30-16.07.13:954][546]LogSavePackage: Save=266.499359ms
+[2015.05.30-16.07.13:954][546]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Laubbaum616E9D4B47B99987240013B43874AB28.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Meshes/Laubbaum.uasset'
+[2015.05.30-16.07.14:861][546]LogSavePackage: Save=66.530281ms
+[2015.05.30-16.07.14:861][546]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/LaubBaum_BPA6E4D2E546F25E6BBC3075AD91990215.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/LaubBaum_BP.uasset'
+[2015.05.30-16.07.19:893][656]LoadErrors:Error: Error Failed import for StaticMeshComponent
+[2015.05.30-16.07.20:174][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Nadelbaum" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Meshes/Nadelbaum.uasset" SILENT=true
+[2015.05.30-16.07.20:548][656]LogSavePackage: Save=371.322388ms
+[2015.05.30-16.07.20:549][656]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/NadelbaumC8667B6E4411A24751C4039BC617CBD0.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Meshes/Nadelbaum.uasset'
+[2015.05.30-16.07.21:382][656]LogSavePackage: Save=60.366734ms
+[2015.05.30-16.07.21:382][656]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/NadelBaum_BPD6956F904ECA53944DE59B8E1CF62D11.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/NadelBaum_BP.uasset'
+[2015.05.30-16.07.25:875][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Cube" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Meshes/Cube.uasset" SILENT=true
+[2015.05.30-16.07.26:496][752]LogSavePackage: Save=616.866394ms
+[2015.05.30-16.07.26:496][752]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Cube5DC0BE58400F90540318D4B1FDBC05B0.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Meshes/Cube.uasset'
+[2015.05.30-16.07.39:580][ 96]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Character'
+[2015.05.30-16.07.45:384][258]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.05.30-16.08.29:706][ 95]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-16.08.30:249][ 95]BlueprintEditorCompileResults: Info [2115.57] Compile of FirstPersonCharacter successful! [in 542 ms]
+[2015.05.30-16.08.30:258][ 95]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.09.02:002][238]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-16.09.02:500][238]BlueprintEditorCompileResults: Info [2147.82] Compile of FirstPersonCharacter successful! [in 496 ms]
+[2015.05.30-16.09.02:518][238]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.09.03:995][273]LogSavePackage: Save=323.084167ms
+[2015.05.30-16.09.03:995][273]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/FirstPersonCharacterBCBB2E7B44FC080C32D15DA5060E4B77.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2015.05.30-16.09.06:094][337]BlueprintLog: New page: Compile Wohnhaus
+[2015.05.30-16.09.06:514][337]BlueprintEditorCompileResults: Info [2151.84] Compile of Wohnhaus successful! [in 420 ms]
+[2015.05.30-16.09.06:531][337]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.09.07:303][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Wohnhaus" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Wohnhaus.uasset" SILENT=true
+[2015.05.30-16.09.08:141][350]LogSavePackage: Save=809.770142ms
+[2015.05.30-16.09.08:141][350]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/WohnhausA8CDF995418D8C19B4CF32BE314039A7.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Wohnhaus.uasset'
+[2015.05.30-16.09.11:462][447]BlueprintLog: New page: Compile Baum
+[2015.05.30-16.09.12:238][447]BlueprintEditorCompileResults: Info [2157.56] Compile of Baum successful! [in 774 ms]
+[2015.05.30-16.09.12:246][447]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.09.12:967][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Baum" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Baum.uasset" SILENT=true
+[2015.05.30-16.09.13:078][456]LogSavePackage: Save=93.286690ms
+[2015.05.30-16.09.13:078][456]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Baum5BBC9CDA48B52E4788F8DD9468F8CCF9.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Baum.uasset'
+[2015.05.30-16.09.33:913][696]LogSavePackage: Save=12240.374023ms
+[2015.05.30-16.09.33:913][696]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/FirstPersonExampleMap_Auto18639D7AB4BD8B6D6125FD695773B6DD5.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.05.30-16.09.33:934][696]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 12.644
+[2015.05.30-16.09.33:934][696]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 12.644
+[2015.05.30-16.09.38:110][793]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-16.09.38:133][793]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-16.09.38:634][793]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-16.09.39:374][793]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-16.09.39:573][793]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-16.09.39:699][793]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-16.09.39:920][793]LogPlayLevel: PIE:  Blueprint regeneration took 1810 ms (5 blueprints)
+[2015.05.30-16.09.39:921][793]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 8:09:39 PM)
+[2015.05.30-16.09.39:962][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040742s)
+[2015.05.30-16.09.39:964][793]LogPlayLevel: PIE: World Init took: (0.001722s)
+[2015.05.30-16.09.39:964][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.042830s)
+[2015.05.30-16.09.40:031][793]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-16.09.40:034][793]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-16.09.40:049][793]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-18.09.40
+[2015.05.30-16.09.40:051][793]LogWorld: Bringing up level for play took: 0.016651
+[2015.05.30-16.09.40:054][793]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.828
+[2015.05.30-16.09.40:156][794]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.09.43:471][898]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F8BCCC0
+[2015.05.30-16.10.36:695][ 74]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-16.10.36:730][ 74]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-16.10.37:340][ 74]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-16.10.38:278][ 74]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-16.10.38:581][ 74]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-16.10.38:782][ 74]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-16.10.39:044][ 74]LogPlayLevel: PIE:  Blueprint regeneration took 2349 ms (5 blueprints)
+[2015.05.30-16.10.39:044][ 74]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 8:10:39 PM)
+[2015.05.30-16.10.39:091][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046382s)
+[2015.05.30-16.10.39:093][ 74]LogPlayLevel: PIE: World Init took: (0.001755s)
+[2015.05.30-16.10.39:093][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.048547s)
+[2015.05.30-16.10.39:171][ 74]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-16.10.39:174][ 74]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-16.10.39:203][ 74]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-18.10.39
+[2015.05.30-16.10.39:211][ 74]LogWorld: Bringing up level for play took: 0.035888
+[2015.05.30-16.10.39:216][ 74]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.988
+[2015.05.30-16.10.39:341][ 75]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.11.49:388][496]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000074035BC0
+[2015.05.30-16.12.38:955][164]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-16.12.39:568][164]BlueprintEditorCompileResults: Info [2364.89] Compile of FirstPersonCharacter successful! [in 613 ms]
+[2015.05.30-16.12.39:578][164]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.12.40:617][178]LogSavePackage: Save=354.399170ms
+[2015.05.30-16.12.40:617][178]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/FirstPersonCharacterAD6CC20D470201E9C0B5DD87B6617170.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2015.05.30-16.12.42:076][213]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-16.12.42:159][213]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-16.12.43:232][213]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-16.12.43:457][213]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-16.12.43:903][213]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-16.12.44:088][213]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-16.12.44:289][213]LogPlayLevel: PIE:  Blueprint regeneration took 2213 ms (5 blueprints)
+[2015.05.30-16.12.44:289][213]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 8:12:44 PM)
+[2015.05.30-16.12.44:351][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059925s)
+[2015.05.30-16.12.44:352][213]LogPlayLevel: PIE: World Init took: (0.001631s)
+[2015.05.30-16.12.44:353][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.062028s)
+[2015.05.30-16.12.44:424][213]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-16.12.44:428][213]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-16.12.44:454][213]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-18.12.44
+[2015.05.30-16.12.44:456][213]LogWorld: Bringing up level for play took: 0.027361
+[2015.05.30-16.12.44:459][213]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 3.231
+[2015.05.30-16.12.44:572][214]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.12.45:793][254]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.13.08:169][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004E892340
+[2015.05.30-16.14.11:732][939]BlueprintLog: New page: Compile LaubBaum_BP
+[2015.05.30-16.14.11:965][939]BlueprintEditorCompileResults: Info [2457.28] Compile of LaubBaum_BP successful! [in 233 ms]
+[2015.05.30-16.14.27:072][413]BlueprintLog: New page: Compile LaubBaum_BP
+[2015.05.30-16.14.27:292][413]BlueprintEditorCompileResults: Info [2472.61] Compile of LaubBaum_BP successful! [in 219 ms]
+[2015.05.30-16.14.56:616][230]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-16.14.56:705][230]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-16.14.57:856][230]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-16.14.58:160][230]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-16.14.58:831][230]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-16.14.59:134][230]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-16.14.59:416][230]LogPlayLevel: PIE:  Blueprint regeneration took 2800 ms (5 blueprints)
+[2015.05.30-16.14.59:417][230]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 8:14:59 PM)
+[2015.05.30-16.14.59:486][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068155s)
+[2015.05.30-16.14.59:487][230]LogPlayLevel: PIE: World Init took: (0.001290s)
+[2015.05.30-16.14.59:487][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.069850s)
+[2015.05.30-16.14.59:583][230]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-16.14.59:586][230]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-16.14.59:638][230]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-18.14.59
+[2015.05.30-16.14.59:640][230]LogWorld: Bringing up level for play took: 0.051971
+[2015.05.30-16.14.59:643][230]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.415
+[2015.05.30-16.14.59:761][231]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.15.34:732][477]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.34:756][478]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.34:786][479]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.34:810][480]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.34:839][481]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.34:885][482]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.34:909][483]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.34:937][484]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.34:977][485]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.35:008][486]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.35:032][487]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.35:066][488]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.35:101][489]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.35:129][490]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.35:154][491]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.35:173][492]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.35:203][493]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2015.05.30-16.15.49:930][  5]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.15.50:874][ 33]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.17.10:273][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004E893EC0
+[2015.05.30-16.17.12:875][993]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.17.15:935][ 73]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-16.17.16:534][ 73]BlueprintEditorCompileResults: Info [2641.85] Compile of FirstPersonCharacter successful! [in 597 ms]
+[2015.05.30-16.17.16:544][ 73]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.17.16:655][ 74]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.17.18:163][109]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-16.17.18:250][109]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-16.17.19:079][109]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-16.17.19:357][109]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-16.17.19:831][109]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-16.17.19:996][109]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-16.17.20:215][109]LogPlayLevel: PIE:  Blueprint regeneration took 2051 ms (5 blueprints)
+[2015.05.30-16.17.20:215][109]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 8:17:20 PM)
+[2015.05.30-16.17.20:279][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062935s)
+[2015.05.30-16.17.20:282][109]LogPlayLevel: PIE: World Init took: (0.002681s)
+[2015.05.30-16.17.20:282][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.066109s)
+[2015.05.30-16.17.20:352][109]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-16.17.20:355][109]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-16.17.20:381][109]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-18.17.20
+[2015.05.30-16.17.20:383][109]LogWorld: Bringing up level for play took: 0.027628
+[2015.05.30-16.17.20:386][109]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 3.157
+[2015.05.30-16.17.20:492][110]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.17.23:469][211]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.17.49:410][ 86]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000401C13A0
+[2015.05.30-16.17.51:033][128]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.17.59:170][400]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-16.17.59:767][400]BlueprintEditorCompileResults: Info [2685.08] Compile of FirstPersonCharacter successful! [in 596 ms]
+[2015.05.30-16.17.59:777][400]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.17.59:882][401]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.18.01:248][439]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-16.18.01:356][439]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-16.18.02:209][439]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-16.18.02:494][439]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-16.18.03:068][439]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-16.18.03:268][439]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-16.18.03:485][439]LogPlayLevel: PIE:  Blueprint regeneration took 2236 ms (5 blueprints)
+[2015.05.30-16.18.03:485][439]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 8:18:03 PM)
+[2015.05.30-16.18.03:550][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063687s)
+[2015.05.30-16.18.03:551][439]LogPlayLevel: PIE: World Init took: (0.001463s)
+[2015.05.30-16.18.03:551][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.065610s)
+[2015.05.30-16.18.03:630][439]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-16.18.03:633][439]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-16.18.03:665][439]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-18.18.03
+[2015.05.30-16.18.03:668][439]LogWorld: Bringing up level for play took: 0.033362
+[2015.05.30-16.18.03:671][439]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.441
+[2015.05.30-16.18.03:775][440]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.18.10:648][643]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005F5DE2A0
+[2015.05.30-16.18.11:509][660]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.18.31:762][290]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-16.18.32:292][290]BlueprintEditorCompileResults: Info [2717.61] Compile of FirstPersonCharacter successful! [in 529 ms]
+[2015.05.30-16.18.32:307][290]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.18.32:454][291]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.19.54:653][166]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-16.19.55:332][166]BlueprintEditorCompileResults: Info [2800.65] Compile of FirstPersonCharacter successful! [in 678 ms]
+[2015.05.30-16.19.55:347][166]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.19.57:476][231]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-16.19.57:573][231]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-16.19.58:441][231]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-16.19.58:797][231]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-16.19.59:352][231]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-16.19.59:539][231]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-16.19.59:741][231]LogPlayLevel: PIE:  Blueprint regeneration took 2263 ms (5 blueprints)
+[2015.05.30-16.19.59:741][231]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 8:19:59 PM)
+[2015.05.30-16.19.59:783][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041341s)
+[2015.05.30-16.19.59:785][231]LogPlayLevel: PIE: World Init took: (0.001566s)
+[2015.05.30-16.19.59:785][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.043798s)
+[2015.05.30-16.19.59:856][231]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-16.19.59:858][231]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-16.19.59:885][231]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-18.19.59
+[2015.05.30-16.19.59:888][231]LogWorld: Bringing up level for play took: 0.028392
+[2015.05.30-16.19.59:892][231]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.662
+[2015.05.30-16.20.00:033][232]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.20.02:248][302]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006C74D580
+[2015.05.30-16.20.04:667][388]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.20.37:303][443]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.20.38:985][513]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-16.20.39:574][513]BlueprintEditorCompileResults: Info [2844.89] Compile of FirstPersonCharacter successful! [in 589 ms]
+[2015.05.30-16.20.39:584][513]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.20.39:704][514]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.20.42:515][599]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-16.20.42:608][599]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-16.20.43:426][599]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-16.20.43:667][599]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-16.20.44:119][599]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-16.20.44:285][599]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-16.20.44:492][599]LogPlayLevel: PIE:  Blueprint regeneration took 1978 ms (5 blueprints)
+[2015.05.30-16.20.44:493][599]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 8:20:44 PM)
+[2015.05.30-16.20.44:551][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057298s)
+[2015.05.30-16.20.44:552][599]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2015.05.30-16.20.44:553][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.059120s)
+[2015.05.30-16.20.44:639][599]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-16.20.44:642][599]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-16.20.44:668][599]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-18.20.44
+[2015.05.30-16.20.44:672][599]LogWorld: Bringing up level for play took: 0.029169
+[2015.05.30-16.20.44:675][599]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.445
+[2015.05.30-16.20.44:815][600]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.21.07:194][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005DC9E7A0
+[2015.05.30-16.21.15:322][631]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.21.16:713][684]BlueprintLog: New page: Compile Wohnhaus
+[2015.05.30-16.21.17:043][684]BlueprintEditorCompileResults: Info [2882.36] Compile of Wohnhaus successful! [in 330 ms]
+[2015.05.30-16.21.17:055][684]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.21.17:234][687]BlueprintLog: New page: Compile Wohnhaus
+[2015.05.30-16.21.17:582][687]BlueprintEditorCompileResults: Info [2882.90] Compile of Wohnhaus successful! [in 348 ms]
+[2015.05.30-16.21.17:600][687]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.21.19:829][755]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.21.20:951][805]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-16.21.21:681][805]BlueprintEditorCompileResults: Info [2887.00] Compile of FirstPersonCharacter successful! [in 729 ms]
+[2015.05.30-16.21.21:716][805]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.21.21:847][806]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.21.30:531][ 92]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.22.19:725][600]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-16.22.19:771][600]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-16.22.20:303][600]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-16.22.21:244][600]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-16.22.21:488][600]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-16.22.21:710][600]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-16.22.21:996][600]LogPlayLevel: PIE:  Blueprint regeneration took 2270 ms (5 blueprints)
+[2015.05.30-16.22.21:997][600]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 8:22:21 PM)
+[2015.05.30-16.22.22:062][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063711s)
+[2015.05.30-16.22.22:063][600]LogPlayLevel: PIE: World Init took: (0.001406s)
+[2015.05.30-16.22.22:063][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.065537s)
+[2015.05.30-16.22.22:152][600]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-16.22.22:155][600]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-16.22.22:186][600]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-18.22.22
+[2015.05.30-16.22.22:190][600]LogWorld: Bringing up level for play took: 0.033272
+[2015.05.30-16.22.22:196][600]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.965
+[2015.05.30-16.22.22:351][601]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.24.21:591][808]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000727293A0
+[2015.05.30-16.25.17:604][498]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.05.30-16.33.45:763][367]BlueprintLog: New page: Compile Bergwerk
+[2015.05.30-16.33.46:057][367]BlueprintEditorCompileResults: Info [3631.37] Compile of Bergwerk successful! [in 294 ms]
+[2015.05.30-16.33.46:685][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Bergwerk" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Bergwerk.uasset" SILENT=true
+[2015.05.30-16.33.47:493][384]LogSavePackage: Save=784.777161ms
+[2015.05.30-16.33.47:493][384]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Bergwerk7B5944E94DB42F9D6F85CA81792EA894.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Bergwerk.uasset'
+[2015.05.30-16.45.34:721][542]LogBlueprint:Error: [compiler] Error Default value '' for  Arbeiter  is invalid: 'Array inputs (like 'Arbeiter') must have an input wired into them (try connecting a MakeArray node).'
+[2015.05.30-16.45.34:950][542]LogBlueprint:Warning: [compiler] Warning [4340.26] Compile of Bergwerk failed. 1 Fatal Issue(s) 0 Warning(s) [in 295 ms]
+[2015.05.30-16.45.34:951][542]LogBlueprint:Warning: [compiler] Warning [4340.26] Compile of Bergwerk failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.05.30-16.45.34:951][542]LogBlueprint:Warning: [compiler] Warning [4340.26] Compile of Bergwerk failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.05.30-16.45.34:961][542]LogBlueprint:Warning: [compiler] Warning [4340.27] Compile of Bergwerk failed. 1 Fatal Issue(s) 3 Warning(s) [in 10 ms]
+[2015.05.30-16.45.34:962][542]LogBlueprint:Warning: [compiler] Warning [4340.27] Compile of Bergwerk failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.05.30-16.45.34:962][542]LogBlueprint:Warning: [compiler] Warning [4340.27] Compile of Bergwerk failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.05.30-16.46.45:270][976]LogSavePackage: Save=12091.230469ms
+[2015.05.30-16.46.45:270][976]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/FirstPersonExampleMap_Auto251818C7D4F176648160ACA82EB9F7707.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2015.05.30-16.46.45:323][976]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 12.539
+[2015.05.30-16.46.45:323][976]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 12.539
+[2015.05.30-16.46.45:390][976]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.05.30-16.46.45:390][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.05.30-16.46.46:006][976]LogSavePackage: Save=549.726868ms
+[2015.05.30-16.46.46:012][976]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/FirstPersonCharacter_Auto2DBC4B16C469A79F6B24AA0B6216F3C86.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2015.05.30-16.46.46:186][976]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/Baum] ([1] browsable assets)...
+[2015.05.30-16.46.46:186][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Baum]
+[2015.05.30-16.46.46:668][976]LogSavePackage: Save=393.962280ms
+[2015.05.30-16.46.46:676][976]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Baum_Auto2788D84CF44A9CC204058488E7BF3A660.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Baum_Auto2.uasset'
+[2015.05.30-16.46.46:825][976]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/Bergwerk] ([1] browsable assets)...
+[2015.05.30-16.46.46:899][976]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/Bergwerk.Bergwerk]
+[2015.05.30-16.46.46:899][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Bergwerk]
+[2015.05.30-16.46.48:259][976]LogSavePackage: Save=1326.208740ms
+[2015.05.30-16.46.48:261][976]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Bergwerk_Auto2C56A5FDC414B7CC5947A7397345481E9.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Bergwerk_Auto2.uasset'
+[2015.05.30-16.46.48:370][976]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/LaubBaum_BP] ([1] browsable assets)...
+[2015.05.30-16.46.48:370][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/LaubBaum_BP]
+[2015.05.30-16.46.48:776][976]LogSavePackage: Save=315.088837ms
+[2015.05.30-16.46.48:778][976]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/LaubBaum_BP_Auto2B6E518984DE095BE4B1ABA93B4871CFF.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Blueprints/LaubBaum_BP_Auto2.uasset'
+[2015.05.30-16.46.48:831][976]LogFileHelpers: Auto-saving content packages took 3.506
+[2015.05.30-16.46.53:268][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Bergwerk" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Bergwerk.uasset" SILENT=true
+[2015.05.30-16.46.53:450][183]LogSavePackage: Save=167.624313ms
+[2015.05.30-16.46.53:450][183]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Bergwerk64E00B3948391E622B6055AC8F130331.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Bergwerk.uasset'
+[2015.05.30-16.46.55:497][273]BlueprintLog: New page: Compile Bergwerk
+[2015.05.30-16.46.55:612][273]LogBlueprint:Error: [compiler] Error Default value '' for  Arbeiter  is invalid: 'Array inputs (like 'Arbeiter') must have an input wired into them (try connecting a MakeArray node).'
+[2015.05.30-16.46.56:045][273]LogBlueprint:Warning: [compiler] Warning [4421.35] Compile of Bergwerk failed. 1 Fatal Issue(s) 0 Warning(s) [in 547 ms]
+[2015.05.30-16.46.56:045][273]BlueprintEditorCompileResults:Error: Error Default value '' for  Arbeiter  is invalid: 'Array inputs (like 'Arbeiter') must have an input wired into them (try connecting a MakeArray node).'
+[2015.05.30-16.46.56:045][273]BlueprintEditorCompileResults:Warning: Warning [4421.35] Compile of Bergwerk failed. 1 Fatal Issue(s) 0 Warning(s) [in 547 ms]
+[2015.05.30-16.47.05:864][728]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.30-16.47.05:865][728]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.05.30-16.47.06:037][734]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.30-16.47.06:038][734]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.05.30-16.47.19:736][333]BlueprintLog: New page: Compile Bergwerk
+[2015.05.30-16.47.20:005][333]BlueprintEditorCompileResults: Info [4445.31] Compile of Bergwerk successful! [in 268 ms]
+[2015.05.30-16.48.45:897][545]BlueprintLog: New page: Compile Bergwerk
+[2015.05.30-16.48.46:215][545]BlueprintEditorCompileResults: Info [4531.52] Compile of Bergwerk successful! [in 317 ms]
+[2015.05.30-16.50.16:052][958]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.50.29:672][657]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.50.33:873][862]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-16.50.34:649][862]BlueprintEditorCompileResults: Info [4639.96] Compile of FirstPersonCharacter successful! [in 774 ms]
+[2015.05.30-16.50.34:661][862]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.50.42:793][175]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.51.16:841][435]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.52.28:346][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.05.30-16.52.48:807][614]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.54.08:303][240]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-16.54.08:351][240]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-16.54.09:014][240]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-16.54.09:993][240]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-16.54.10:205][240]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-16.54.10:473][240]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-16.54.10:684][240]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-16.54.10:952][240]LogPlayLevel: PIE:  Blueprint regeneration took 2649 ms (6 blueprints)
+[2015.05.30-16.54.10:952][240]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 8:54:10 PM)
+[2015.05.30-16.54.11:042][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088980s)
+[2015.05.30-16.54.11:045][240]LogPlayLevel: PIE: World Init took: (0.003098s)
+[2015.05.30-16.54.11:045][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.092422s)
+[2015.05.30-16.54.11:091][240]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-16.54.11:094][240]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-16.54.11:141][240]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-18.54.11
+[2015.05.30-16.54.11:145][240]LogWorld: Bringing up level for play took: 0.049984
+[2015.05.30-16.54.11:149][240]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.91
+[2015.05.30-16.54.11:249][241]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.54.29:560][790]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007BA39760
+[2015.05.30-16.56.56:262][280]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.58.27:577][992]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.58.36:766][512]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.58.40:079][675]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.58.42:445][767]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.58.46:092][950]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.59.02:916][793]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.59.09:489][168]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.59.39:346][ 51]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-16.59.39:896][ 51]BlueprintEditorCompileResults: Info [5185.20] Compile of FirstPersonCharacter successful! [in 549 ms]
+[2015.05.30-16.59.39:906][ 51]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-16.59.43:531][343]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.01.13:901][746]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.01.19:249][103]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.04.38:310][183]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-17.04.38:931][183]BlueprintEditorCompileResults: Info [5484.24] Compile of FirstPersonCharacter successful! [in 620 ms]
+[2015.05.30-17.04.38:940][183]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.04.41:344][302]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-17.04.41:418][302]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-17.04.42:113][302]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-17.04.42:312][302]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-17.04.42:532][302]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-17.04.43:027][302]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-17.04.43:178][302]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-17.04.43:400][302]LogPlayLevel: PIE:  Blueprint regeneration took 2055 ms (6 blueprints)
+[2015.05.30-17.04.43:400][302]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 9:04:43 PM)
+[2015.05.30-17.04.43:447][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046106s)
+[2015.05.30-17.04.43:448][302]LogPlayLevel: PIE: World Init took: (0.001497s)
+[2015.05.30-17.04.43:449][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.048087s)
+[2015.05.30-17.04.43:498][302]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-17.04.43:501][302]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-17.04.43:526][302]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-19.04.43
+[2015.05.30-17.04.43:528][302]LogWorld: Bringing up level for play took: 0.026401
+[2015.05.30-17.04.43:531][302]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.289
+[2015.05.30-17.04.43:633][303]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.04.47:423][512]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000889E9A80
+[2015.05.30-17.04.53:471][803]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.04.59:589][252]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.04.59:707][253]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.05.15:302][ 26]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.06.03:720][514]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.06.31:257][328]BlueprintLog: New page: Compile Bergwerk
+[2015.05.30-17.06.31:596][328]BlueprintEditorCompileResults: Info [5596.90] Compile of Bergwerk successful! [in 338 ms]
+[2015.05.30-17.06.31:602][328]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.06.34:612][491]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-17.06.34:637][491]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-17.06.35:191][491]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-17.06.35:848][491]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-17.06.36:018][491]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-17.06.36:232][491]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-17.06.36:366][491]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-17.06.36:563][491]LogPlayLevel: PIE:  Blueprint regeneration took 1950 ms (6 blueprints)
+[2015.05.30-17.06.36:563][491]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 9:06:36 PM)
+[2015.05.30-17.06.36:618][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053662s)
+[2015.05.30-17.06.36:619][491]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2015.05.30-17.06.36:619][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.055187s)
+[2015.05.30-17.06.36:675][491]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-17.06.36:678][491]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-17.06.36:704][491]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-19.06.36
+[2015.05.30-17.06.36:706][491]LogWorld: Bringing up level for play took: 0.027359
+[2015.05.30-17.06.36:709][491]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.466
+[2015.05.30-17.06.36:806][492]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.06.54:153][535]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008B5BFC40
+[2015.05.30-17.07.51:159][487]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-17.07.51:781][487]BlueprintEditorCompileResults: Info [5677.08] Compile of FirstPersonCharacter successful! [in 622 ms]
+[2015.05.30-17.07.51:791][487]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.07.54:079][614]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-17.07.54:139][614]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-17.07.54:816][614]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-17.07.55:024][614]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-17.07.55:249][614]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-17.07.55:718][614]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-17.07.55:857][614]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-17.07.56:068][614]LogPlayLevel: PIE:  Blueprint regeneration took 1989 ms (6 blueprints)
+[2015.05.30-17.07.56:069][614]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 9:07:56 PM)
+[2015.05.30-17.07.56:115][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045159s)
+[2015.05.30-17.07.56:116][614]LogPlayLevel: PIE: World Init took: (0.001642s)
+[2015.05.30-17.07.56:117][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.047589s)
+[2015.05.30-17.07.56:175][614]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-17.07.56:178][614]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-17.07.56:203][614]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-19.07.56
+[2015.05.30-17.07.56:205][614]LogWorld: Bringing up level for play took: 0.026709
+[2015.05.30-17.07.56:209][614]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.965
+[2015.05.30-17.07.56:307][615]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.08.21:320][192]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000083F01800
+[2015.05.30-17.08.26:485][545]BlueprintLog: New page: Compile Bergwerk
+[2015.05.30-17.08.26:797][545]BlueprintEditorCompileResults: Info [5712.10] Compile of Bergwerk successful! [in 312 ms]
+[2015.05.30-17.08.26:805][545]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.08.37:860][336]BlueprintLog: New page: Compile Bergwerk
+[2015.05.30-17.08.38:178][336]BlueprintEditorCompileResults: Info [5723.48] Compile of Bergwerk successful! [in 318 ms]
+[2015.05.30-17.08.38:186][336]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.08.39:628][405]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-17.08.39:649][405]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-17.08.40:137][405]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-17.08.40:801][405]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-17.08.40:984][405]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-17.08.41:206][405]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-17.08.41:361][405]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-17.08.41:559][405]LogPlayLevel: PIE:  Blueprint regeneration took 1931 ms (6 blueprints)
+[2015.05.30-17.08.41:559][405]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 9:08:41 PM)
+[2015.05.30-17.08.41:604][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044249s)
+[2015.05.30-17.08.41:605][405]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2015.05.30-17.08.41:606][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.045971s)
+[2015.05.30-17.08.41:659][405]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-17.08.41:661][405]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-17.08.41:686][405]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-19.08.41
+[2015.05.30-17.08.41:689][405]LogWorld: Bringing up level for play took: 0.027319
+[2015.05.30-17.08.41:692][405]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.449
+[2015.05.30-17.08.41:782][406]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.08.51:367][954]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008F448FE0
+[2015.05.30-17.08.54:254][ 84]LogEditorViewport: Clicking on Actor (LMB): Bergwerk_C (Bergwerk)
+[2015.05.30-17.09.21:244][725]BlueprintLog: New page: Compile Bergwerk
+[2015.05.30-17.09.21:561][725]BlueprintEditorCompileResults: Info [5766.87] Compile of Bergwerk successful! [in 317 ms]
+[2015.05.30-17.09.21:568][725]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.09.23:644][811]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-17.09.23:665][811]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-17.09.24:171][811]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-17.09.24:872][811]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-17.09.25:082][811]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-17.09.25:287][811]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-17.09.25:433][811]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-17.09.25:645][811]LogPlayLevel: PIE:  Blueprint regeneration took 2001 ms (6 blueprints)
+[2015.05.30-17.09.25:645][811]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 9:09:25 PM)
+[2015.05.30-17.09.25:690][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043559s)
+[2015.05.30-17.09.25:691][811]LogPlayLevel: PIE: World Init took: (0.001384s)
+[2015.05.30-17.09.25:692][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.045406s)
+[2015.05.30-17.09.25:747][811]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-17.09.25:750][811]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-17.09.25:776][811]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-19.09.25
+[2015.05.30-17.09.25:779][811]LogWorld: Bringing up level for play took: 0.029053
+[2015.05.30-17.09.25:783][811]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.541
+[2015.05.30-17.09.25:890][812]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.09.29:196][  9]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:215][ 10]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:230][ 11]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:246][ 12]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:261][ 13]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:278][ 14]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:293][ 15]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:310][ 16]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:334][ 17]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:359][ 18]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:383][ 19]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:410][ 20]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:437][ 21]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:452][ 22]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:468][ 23]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:483][ 24]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:500][ 25]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:515][ 26]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:533][ 27]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:549][ 28]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:565][ 29]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:580][ 30]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:598][ 31]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:615][ 32]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:634][ 33]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:649][ 34]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:667][ 35]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:685][ 36]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:704][ 37]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:722][ 38]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:740][ 39]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:758][ 40]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:777][ 41]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:793][ 42]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:810][ 43]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:826][ 44]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:841][ 45]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:856][ 46]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:872][ 47]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:887][ 48]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:903][ 49]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:919][ 50]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:934][ 51]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:950][ 52]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:966][ 53]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.29:983][ 54]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.30:000][ 55]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.30:016][ 56]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.30:031][ 57]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.30:046][ 58]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.30:061][ 59]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.30:078][ 60]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.30:093][ 61]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.30:109][ 62]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.30:125][ 63]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.30:141][ 64]LogCharacterMovement: FirstPersonCharacter_C_6 is stuck and failed to move!
+[2015.05.30-17.09.58:253][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008F44B6A0
+[2015.05.30-17.10.39:784][654]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-17.10.39:808][654]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-17.10.40:325][654]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-17.10.41:026][654]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-17.10.41:238][654]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-17.10.41:478][654]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-17.10.41:626][654]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-17.10.41:828][654]LogPlayLevel: PIE:  Blueprint regeneration took 2043 ms (6 blueprints)
+[2015.05.30-17.10.41:829][654]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 9:10:41 PM)
+[2015.05.30-17.10.41:871][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041447s)
+[2015.05.30-17.10.41:872][654]LogPlayLevel: PIE: World Init took: (0.001487s)
+[2015.05.30-17.10.41:873][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.043550s)
+[2015.05.30-17.10.41:933][654]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-17.10.41:936][654]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-17.10.41:964][654]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-19.10.41
+[2015.05.30-17.10.41:967][654]LogWorld: Bringing up level for play took: 0.029827
+[2015.05.30-17.10.41:970][654]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.728
+[2015.05.30-17.10.42:084][655]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.11.00:335][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000889EB9C0
+[2015.05.30-17.11.36:733][861]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-17.11.37:317][861]BlueprintEditorCompileResults: Info [5902.62] Compile of FirstPersonCharacter successful! [in 583 ms]
+[2015.05.30-17.11.37:326][861]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.11.40:086][991]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-17.11.40:140][991]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-17.11.40:815][991]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-17.11.41:036][991]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-17.11.41:257][991]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-17.11.41:754][991]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-17.11.41:907][991]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-17.11.42:118][991]LogPlayLevel: PIE:  Blueprint regeneration took 2031 ms (6 blueprints)
+[2015.05.30-17.11.42:118][991]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 9:11:42 PM)
+[2015.05.30-17.11.42:163][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044189s)
+[2015.05.30-17.11.42:164][991]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2015.05.30-17.11.42:164][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.045854s)
+[2015.05.30-17.11.42:211][991]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-17.11.42:215][991]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-17.11.42:243][991]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-19.11.42
+[2015.05.30-17.11.42:245][991]LogWorld: Bringing up level for play took: 0.029373
+[2015.05.30-17.11.42:249][991]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 3.007
+[2015.05.30-17.11.42:340][992]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.12.01:450][117]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000856537E0
+[2015.05.30-17.12.21:883][554]BlueprintLog: New page: Compile Bergwerk
+[2015.05.30-17.12.22:217][554]BlueprintEditorCompileResults: Info [5947.52] Compile of Bergwerk successful! [in 333 ms]
+[2015.05.30-17.12.22:223][554]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.12.24:311][672]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-17.12.24:331][672]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-17.12.24:866][672]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-17.12.25:568][672]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-17.12.25:759][672]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-17.12.25:990][672]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-17.12.26:147][672]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-17.12.26:354][672]LogPlayLevel: PIE:  Blueprint regeneration took 2042 ms (6 blueprints)
+[2015.05.30-17.12.26:354][672]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 9:12:26 PM)
+[2015.05.30-17.12.26:399][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044301s)
+[2015.05.30-17.12.26:400][672]LogPlayLevel: PIE: World Init took: (0.001424s)
+[2015.05.30-17.12.26:401][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.046317s)
+[2015.05.30-17.12.26:451][672]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-17.12.26:454][672]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-17.12.26:481][672]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-19.12.26
+[2015.05.30-17.12.26:483][672]LogWorld: Bringing up level for play took: 0.028036
+[2015.05.30-17.12.26:486][672]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.244
+[2015.05.30-17.12.26:586][673]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.12.45:104][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000835DA660
+[2015.05.30-17.13.20:867][ 33]BlueprintLog: New page: Compile Bergwerk
+[2015.05.30-17.13.21:198][ 33]BlueprintEditorCompileResults: Info [6006.50] Compile of Bergwerk successful! [in 330 ms]
+[2015.05.30-17.13.21:204][ 33]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.13.22:962][122]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-17.13.22:984][122]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-17.13.23:517][122]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-17.13.24:145][122]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-17.13.24:338][122]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-17.13.24:541][122]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-17.13.24:694][122]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-17.13.24:896][122]LogPlayLevel: PIE:  Blueprint regeneration took 1933 ms (6 blueprints)
+[2015.05.30-17.13.24:896][122]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 9:13:24 PM)
+[2015.05.30-17.13.24:942][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045208s)
+[2015.05.30-17.13.24:944][122]LogPlayLevel: PIE: World Init took: (0.001716s)
+[2015.05.30-17.13.24:944][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.047360s)
+[2015.05.30-17.13.24:997][122]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-17.13.24:999][122]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-17.13.25:026][122]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-19.13.25
+[2015.05.30-17.13.25:029][122]LogWorld: Bringing up level for play took: 0.029380
+[2015.05.30-17.13.25:032][122]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.791
+[2015.05.30-17.13.25:123][123]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.15.13:337][732]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000088550F40
+[2015.05.30-17.15.35:630][876]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-17.15.36:219][876]BlueprintEditorCompileResults: Info [6141.52] Compile of FirstPersonCharacter successful! [in 588 ms]
+[2015.05.30-17.15.36:227][876]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.15.38:347][972]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-17.15.38:411][972]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-17.15.39:115][972]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-17.15.39:342][972]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-17.15.39:555][972]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-17.15.40:040][972]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-17.15.40:188][972]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-17.15.40:392][972]LogPlayLevel: PIE:  Blueprint regeneration took 2044 ms (6 blueprints)
+[2015.05.30-17.15.40:392][972]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 9:15:40 PM)
+[2015.05.30-17.15.40:438][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045184s)
+[2015.05.30-17.15.40:440][972]LogPlayLevel: PIE: World Init took: (0.001749s)
+[2015.05.30-17.15.40:440][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.047423s)
+[2015.05.30-17.15.40:493][972]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-17.15.40:496][972]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-17.15.40:525][972]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-19.15.40
+[2015.05.30-17.15.40:531][972]LogWorld: Bringing up level for play took: 0.034106
+[2015.05.30-17.15.40:535][972]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.293
+[2015.05.30-17.15.40:632][973]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-17.22.08:489][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000955627A0
+[2015.05.30-17.28.17:212][438]LogSavePackage: Save=10182.455078ms
+[2015.05.30-17.28.17:212][438]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/FirstPersonExampleMap_Auto344FBB1C446E911433A4AC09C9AAEC19F.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2015.05.30-17.28.17:229][438]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 10.455
+[2015.05.30-17.28.17:229][438]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 10.455
+[2015.05.30-17.28.17:277][438]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.05.30-17.28.17:277][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.05.30-17.28.17:855][438]LogSavePackage: Save=533.039795ms
+[2015.05.30-17.28.17:859][438]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/FirstPersonCharacter_Auto3D39C1B5B487B162576133382299D553F.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset'
+[2015.05.30-17.28.17:950][438]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/Baum] ([1] browsable assets)...
+[2015.05.30-17.28.17:950][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Baum]
+[2015.05.30-17.28.18:175][438]LogSavePackage: Save=186.191635ms
+[2015.05.30-17.28.18:177][438]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Baum_Auto395660AA6417B49ADFA5506A8C26D226A.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Baum_Auto3.uasset'
+[2015.05.30-17.28.18:242][438]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/Bergwerk] ([1] browsable assets)...
+[2015.05.30-17.28.18:311][438]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/Bergwerk.Bergwerk]
+[2015.05.30-17.28.18:311][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Bergwerk]
+[2015.05.30-17.28.19:250][438]LogSavePackage: Save=916.845459ms
+[2015.05.30-17.28.19:269][438]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Bergwerk_Auto30DC51C1E473BC4B8A4B74C83A515753F.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Bergwerk_Auto3.uasset'
+[2015.05.30-17.28.19:347][438]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/LaubBaum_BP] ([1] browsable assets)...
+[2015.05.30-17.28.19:347][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/LaubBaum_BP]
+[2015.05.30-17.28.19:530][438]LogSavePackage: Save=139.757614ms
+[2015.05.30-17.28.19:531][438]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/LaubBaum_BP_Auto37F8645DE4A7C3253EFD2DDAD36618F8C.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Blueprints/LaubBaum_BP_Auto3.uasset'
+[2015.05.30-17.28.19:543][438]LogFileHelpers: Auto-saving content packages took 2.314
+[2015.05.30-18.29.47:407][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LargeCube)
+[2015.05.30-18.29.48:904][827]Cmd: DELETE
+[2015.05.30-18.29.48:904][827]Cmd: ACTOR DELETE
+[2015.05.30-18.29.48:908][827]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.29.49:008][827]LogEditorActor: Deleted 1 Actors (0.103 secs)
+[2015.05.30-18.29.49:322][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube08)
+[2015.05.30-18.29.49:578][854]Cmd: DELETE
+[2015.05.30-18.29.49:578][854]Cmd: ACTOR DELETE
+[2015.05.30-18.29.49:581][854]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.29.49:683][854]LogEditorActor: Deleted 1 Actors (0.105 secs)
+[2015.05.30-18.29.51:736][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube06)
+[2015.05.30-18.29.52:627][990]Cmd: DELETE
+[2015.05.30-18.29.52:627][990]Cmd: ACTOR DELETE
+[2015.05.30-18.29.52:630][990]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.29.52:728][990]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2015.05.30-18.29.53:164][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube07)
+[2015.05.30-18.29.53:426][ 25]Cmd: DELETE
+[2015.05.30-18.29.53:426][ 25]Cmd: ACTOR DELETE
+[2015.05.30-18.29.53:430][ 25]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.29.53:535][ 25]LogEditorActor: Deleted 1 Actors (0.108 secs)
+[2015.05.30-18.29.54:171][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2015.05.30-18.29.54:463][ 75]Cmd: DELETE
+[2015.05.30-18.29.54:463][ 75]Cmd: ACTOR DELETE
+[2015.05.30-18.29.54:466][ 75]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.29.54:563][ 75]LogEditorActor: Deleted 1 Actors (0.099 secs)
+[2015.05.30-18.29.55:107][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2015.05.30-18.29.55:576][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube09)
+[2015.05.30-18.29.55:966][143]Cmd: DELETE
+[2015.05.30-18.29.55:966][143]Cmd: ACTOR DELETE
+[2015.05.30-18.29.55:969][143]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.29.56:063][143]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2015.05.30-18.29.56:576][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2015.05.30-18.29.56:792][182]Cmd: DELETE
+[2015.05.30-18.29.56:792][182]Cmd: ACTOR DELETE
+[2015.05.30-18.29.56:795][182]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.29.56:900][182]LogEditorActor: Deleted 1 Actors (0.107 secs)
+[2015.05.30-18.29.59:303][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube02)
+[2015.05.30-18.30.00:075][340]Cmd: DELETE
+[2015.05.30-18.30.00:075][340]Cmd: ACTOR DELETE
+[2015.05.30-18.30.00:078][340]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.30.00:190][340]LogEditorActor: Deleted 1 Actors (0.115 secs)
+[2015.05.30-18.30.00:599][365]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube03)
+[2015.05.30-18.30.00:753][370]Cmd: DELETE
+[2015.05.30-18.30.00:753][370]Cmd: ACTOR DELETE
+[2015.05.30-18.30.00:756][370]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.30.00:856][370]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2015.05.30-18.30.01:208][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube03)
+[2015.05.30-18.30.01:381][396]Cmd: DELETE
+[2015.05.30-18.30.01:381][396]Cmd: ACTOR DELETE
+[2015.05.30-18.30.01:384][396]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.30.01:490][396]LogEditorActor: Deleted 1 Actors (0.108 secs)
+[2015.05.30-18.30.01:802][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.05.30-18.30.02:042][424]Cmd: DELETE
+[2015.05.30-18.30.02:042][424]Cmd: ACTOR DELETE
+[2015.05.30-18.30.02:044][424]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.30.02:142][424]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2015.05.30-18.30.02:644][456]LogEditorViewport: Clicking on Actor (LMB): Bergwerk_C (Bergwerk)
+[2015.05.30-18.30.02:902][466]Cmd: DELETE
+[2015.05.30-18.30.02:902][466]Cmd: ACTOR DELETE
+[2015.05.30-18.30.02:905][466]LogEditorActor: Deleted Actor: Bergwerk_C
+[2015.05.30-18.30.03:003][466]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2015.05.30-18.30.03:914][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LargeCube2)
+[2015.05.30-18.30.04:057][525]Cmd: DELETE
+[2015.05.30-18.30.04:057][525]Cmd: ACTOR DELETE
+[2015.05.30-18.30.04:059][525]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.30.04:157][525]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2015.05.30-18.30.04:505][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube04)
+[2015.05.30-18.30.04:782][558]Cmd: DELETE
+[2015.05.30-18.30.04:782][558]Cmd: ACTOR DELETE
+[2015.05.30-18.30.04:785][558]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.30.04:884][558]LogEditorActor: Deleted 1 Actors (0.101 secs)
+[2015.05.30-18.30.05:210][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube05)
+[2015.05.30-18.30.05:379][583]Cmd: DELETE
+[2015.05.30-18.30.05:379][583]Cmd: ACTOR DELETE
+[2015.05.30-18.30.05:382][583]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.30-18.30.05:478][583]LogEditorActor: Deleted 1 Actors (0.098 secs)
+[2015.05.30-18.31.03:857][996]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-18.31.03:972][996]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-18.31.04:761][996]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-18.31.05:007][996]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-18.31.05:227][996]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-18.31.05:827][996]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-18.31.06:007][996]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-18.31.06:254][996]LogPlayLevel: PIE:  Blueprint regeneration took 2396 ms (6 blueprints)
+[2015.05.30-18.31.06:254][996]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 10:31:06 PM)
+[2015.05.30-18.31.06:303][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047648s)
+[2015.05.30-18.31.06:304][996]LogPlayLevel: PIE: World Init took: (0.001470s)
+[2015.05.30-18.31.06:304][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.049546s)
+[2015.05.30-18.31.06:357][996]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-18.31.06:360][996]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-18.31.06:393][996]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-20.31.06
+[2015.05.30-18.31.06:396][996]LogWorld: Bringing up level for play took: 0.035076
+[2015.05.30-18.31.06:401][996]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 3.148
+[2015.05.30-18.31.06:494][997]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-18.32.27:491][945]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000087438EA0
+[2015.05.30-18.34.15:518][131]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-18.34.15:627][131]LogPlayLevel: [PIE] Compiling Baum before PIE...
+[2015.05.30-18.34.16:361][131]LogPlayLevel: [PIE] Compiling Bergwerk before PIE...
+[2015.05.30-18.34.16:585][131]LogPlayLevel: [PIE] Compiling Wohnhaus before PIE...
+[2015.05.30-18.34.16:783][131]LogPlayLevel: [PIE] Compiling FirstPersonCharacter before PIE...
+[2015.05.30-18.34.17:351][131]LogPlayLevel: [PIE] Compiling NadelBaum_BP before PIE...
+[2015.05.30-18.34.17:540][131]LogPlayLevel: [PIE] Compiling LaubBaum_BP before PIE...
+[2015.05.30-18.34.17:783][131]LogPlayLevel: PIE:  Blueprint regeneration took 2265 ms (6 blueprints)
+[2015.05.30-18.34.17:783][131]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2015, 10:34:17 PM)
+[2015.05.30-18.34.17:829][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045507s)
+[2015.05.30-18.34.17:835][131]LogPlayLevel: PIE: World Init took: (0.005321s)
+[2015.05.30-18.34.17:835][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.051242s)
+[2015.05.30-18.34.17:890][131]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.30-18.34.17:893][131]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.30-18.34.17:926][131]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.05.30-20.34.17
+[2015.05.30-18.34.17:930][131]LogWorld: Bringing up level for play took: 0.036289
+[2015.05.30-18.34.17:933][131]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.679
+[2015.05.30-18.34.18:029][132]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-18.37.46:020][ 46]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000091411940
+[2015.05.30-18.40.10:862][163]BlueprintLog: New page: Compile Baum
+[2015.05.30-18.40.11:209][163]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000522A8C20
+[2015.05.30-18.40.11:209][163]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BDA3A60
+[2015.05.30-18.40.11:746][163]BlueprintEditorCompileResults: Info [1217.04] Compile of Baum successful! [in 884 ms]
+[2015.05.30-18.40.11:754][163]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-18.40.19:849][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Baum" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Baum.uasset" SILENT=true
+[2015.05.30-18.40.19:927][703]LogSavePackage: Save=58.632805ms
+[2015.05.30-18.40.19:927][703]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Baum8F23B964439A7EF03E1AC08354E9699E.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Baum.uasset'
+[2015.05.30-18.40.25:683][ 54]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.05.30-18.40.26:189][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000068831080
+[2015.05.30-18.40.26:190][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006038AC00
+[2015.05.30-18.40.26:236][ 54]BlueprintEditorCompileResults: Info [1231.53] Compile of FirstPersonCharacter successful! [in 553 ms]
+[2015.05.30-18.40.26:247][ 54]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-18.40.27:227][ 81]LogSavePackage: Save=454.201324ms
+[2015.05.30-18.40.27:227][ 81]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/FirstPersonCharacter7960CA6343E7ADB1555926AAEB409A13.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2015.05.30-18.40.31:198][336]LogSavePackage: Save=29.791187ms
+[2015.05.30-18.40.31:198][336]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/LaubBaum_BP4333CF5C441171D683BFE5B9EDC3680C.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/LaubBaum_BP.uasset'
+[2015.05.30-18.40.38:831][858]BlueprintLog: New page: Compile Bergwerk
+[2015.05.30-18.40.39:117][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000042892DE0
+[2015.05.30-18.40.39:154][858]BlueprintEditorCompileResults: Info [1244.45] Compile of Bergwerk successful! [in 322 ms]
+[2015.05.30-18.40.39:162][858]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-18.40.39:654][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Bergwerk" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Bergwerk.uasset" SILENT=true
+[2015.05.30-18.40.40:340][887]LogSavePackage: Save=667.258118ms
+[2015.05.30-18.40.40:340][887]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Bergwerk172B7DA9413879C90E6E6195AFCEFFEE.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Bergwerk.uasset'
+[2015.05.30-18.41.05:753][756]BlueprintLog: New page: Compile Wohnhaus
+[2015.05.30-18.41.06:040][756]BlueprintEditorCompileResults: Info [1271.33] Compile of Wohnhaus successful! [in 286 ms]
+[2015.05.30-18.41.06:049][756]LogBlueprintUserMessages: Kein Baum
+[2015.05.30-18.41.08:088][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Wohnhaus" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Wohnhaus.uasset" SILENT=true
+[2015.05.30-18.41.08:676][900]LogSavePackage: Save=569.933472ms
+[2015.05.30-18.41.08:676][900]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/WohnhausCED59E7C4697FE76BCD997B80FA4F298.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Blueprints/Wohnhaus.uasset'
+[2015.05.30-18.41.21:222][ 15]LogSavePackage: Save=10152.751953ms
+[2015.05.30-18.41.21:222][ 15]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/FirstPersonExampleMapB085E6BC41C6BAE4A943D68BFEBCEE10.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.05.30-18.46.04:732][ 36]Cmd: QUIT_EDITOR
+[2015.05.30-18.46.05:163][ 36]LogExit: Preparing to exit.
+[2015.05.30-18.46.06:218][ 36]LogExit: Editor shut down
+[2015.05.30-18.46.06:219][ 36]LogExit: Transaction tracking system shut down
+[2015.05.30-18.46.06:222][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AA2DBC0
+[2015.05.30-18.46.06:222][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A1F00E0
+[2015.05.30-18.46.06:222][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A0816C0
+[2015.05.30-18.46.06:224][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B3F3740
+[2015.05.30-18.46.06:225][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004AFB1800
+[2015.05.30-18.46.06:225][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000051813F60
+[2015.05.30-18.46.06:226][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004AFB3880
+[2015.05.30-18.46.06:543][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000062BE5E40
+[2015.05.30-18.46.06:543][ 36]LogExit: Object subsystem successfully closed.
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (179)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (178)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.30-18.46.06:657][ 36]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.30-18.46.06:658][ 36]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.30-18.46.07:040][ 36]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.30-18.46.07:040][ 36]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.30-18.46.07:040][ 36]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.30-18.46.07:040][ 36]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.30-18.46.07:040][ 36]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.30-18.46.07:041][ 36]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.30-18.46.07:041][ 36]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.30-18.46.07:041][ 36]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.30-18.46.07:041][ 36]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.30-18.46.07:041][ 36]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.30-18.46.07:041][ 36]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.30-18.46.07:041][ 36]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.30-18.46.07:042][ 36]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.30-18.46.07:042][ 36]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.30-18.46.07:042][ 36]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.30-18.46.07:042][ 36]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.30-18.46.07:042][ 36]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.30-18.46.07:042][ 36]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.30-18.46.07:042][ 36]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.30-18.46.07:139][ 36]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.30-18.46.07:139][ 36]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.30-18.46.07:139][ 36]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.30-18.46.07:141][ 36]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.30-18.46.07:141][ 36]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.30-18.46.07:141][ 36]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.30-18.46.07:141][ 36]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.30-18.46.07:141][ 36]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.30-18.46.07:141][ 36]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.30-18.46.07:141][ 36]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.30-18.46.07:141][ 36]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.30-18.46.07:141][ 36]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.30-18.46.07:142][ 36]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.30-18.46.07:142][ 36]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.30-18.46.07:142][ 36]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.30-18.46.07:142][ 36]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.30-18.46.07:142][ 36]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.30-18.46.07:142][ 36]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.30-18.46.07:142][ 36]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.30-18.46.07:142][ 36]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.30-18.46.07:142][ 36]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.30-18.46.07:357][ 36]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.30-18.46.07:358][ 36]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.30-18.46.07:358][ 36]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.30-18.46.07:358][ 36]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.30-18.46.07:358][ 36]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.30-18.46.07:358][ 36]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.30-18.46.07:358][ 36]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.30-18.46.07:358][ 36]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.30-18.46.07:358][ 36]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.30-18.46.07:358][ 36]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.30-18.46.07:358][ 36]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.30-18.46.07:358][ 36]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.30-18.46.07:359][ 36]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.30-18.46.07:359][ 36]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.30-18.46.07:359][ 36]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.30-18.46.07:459][ 36]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.30-18.46.07:459][ 36]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.30-18.46.07:464][ 36]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.30-18.46.07:464][ 36]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.30-18.46.07:469][ 36]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.30-18.46.07:469][ 36]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.30-18.46.07:469][ 36]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.30-18.46.07:469][ 36]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.30-18.46.07:469][ 36]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.30-18.46.07:469][ 36]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.30-18.46.07:469][ 36]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.30-18.46.07:469][ 36]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.30-18.46.07:469][ 36]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.30-18.46.07:470][ 36]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.30-18.46.07:470][ 36]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.30-18.46.07:470][ 36]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.30-18.46.07:470][ 36]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.30-18.46.07:478][ 36]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.30-18.46.07:478][ 36]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.30-18.46.07:478][ 36]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.30-18.46.07:478][ 36]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.30-18.46.07:478][ 36]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.30-18.46.07:478][ 36]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.30-18.46.07:478][ 36]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.30-18.46.07:478][ 36]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.30-18.46.07:478][ 36]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.30-18.46.07:478][ 36]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.30-18.46.07:501][ 36]LogDerivedDataCache: Shutdown
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.30-18.46.07:501][ 36]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.30-18.46.07:502][ 36]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.30-18.46.07:502][ 36]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.30-18.46.07:502][ 36]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.30-18.46.07:502][ 36]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.30-18.46.07:502][ 36]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.30-18.46.07:502][ 36]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.30-18.46.07:502][ 36]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.30-18.46.07:502][ 36]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.30-18.46.07:502][ 36]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.30-18.46.07:502][ 36]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.30-18.46.07:502][ 36]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.30-18.46.07:502][ 36]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.30-18.46.07:508][ 36]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.30-18.46.07:508][ 36]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.30-18.46.07:508][ 36]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.30-18.46.07:508][ 36]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.30-18.46.07:508][ 36]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.30-18.46.07:508][ 36]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.30-18.46.07:508][ 36]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.30-18.46.07:509][ 36]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.30-18.46.07:509][ 36]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.30-18.46.07:509][ 36]LogExit: Exiting.
+[2015.05.30-18.46.07:541][ 36]Log file closed, 05/30/15 20:46:07
