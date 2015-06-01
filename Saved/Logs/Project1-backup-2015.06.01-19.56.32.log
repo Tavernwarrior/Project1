@@ -1,0 +1,266 @@
+﻿Log file open, 06/01/15 18:51:20
+LogInit:Display: Running engine for game: Project1
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.01-16.51.20:045][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.06.01-16.51.20:092][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.01-16.51.20:157][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.01-16.51.20:171][  0]LogInit: Object subsystem initialized
+[2015.06.01-16.51.20:174][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.01-16.51.20:174][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Tim/Documents/Unreal Projects/Project1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.01-16.51.20:175][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.01-16.51.20:175][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Tim/Documents/Unreal Projects/Project1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.01-16.51.20:175][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.01-16.51.20:175][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Tim/Documents/Unreal Projects/Project1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.01-16.51.20:176][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.01-16.51.20:176][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.01-16.51.20:187][  0]LogInit: Computer: TIM-PC
+[2015.06.01-16.51.20:187][  0]LogInit: User: Tim
+[2015.06.01-16.51.20:187][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.06.01-16.51.20:187][  0]LogInit: High frequency timer resolution =3.117197 MHz
+[2015.06.01-16.51.20:187][  0]LogMemory: Memory total: Physical=9.9GB (10GB approx) Virtual=8192.0GB
+[2015.06.01-16.51.20:187][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.01-16.51.20:187][  0]LogMemory: Process Physical Memory: 47.16 MB used, 47.16 MB peak
+[2015.06.01-16.51.20:187][  0]LogMemory: Process Virtual Memory: 25.25 MB used, 25.25 MB peak
+[2015.06.01-16.51.20:187][  0]LogMemory: Physical Memory: 3611.62 MB used, 10167.08 MB total
+[2015.06.01-16.51.20:187][  0]LogMemory: Virtual Memory: 278.95 MB used, 8388608.00 MB total
+[2015.06.01-16.51.20:403][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.06.01-16.51.20:403][  0]LogD3D11RHI: Adapter has 4027MB of dedicated video memory, 0MB of dedicated system memory, and 4827MB of shared system memory, 1 output[s]
+[2015.06.01-16.51.20:403][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.01-16.51.20:411][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.01-16.51.20:426][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.01-16.51.20:771][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.06.01-16.51.20:917][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.01-16.51.20:918][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.01-16.51.21:060][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.01-16.51.26:064][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.01-16.51.27:177][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.01-16.51.27:313][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.01-16.51.27:824][  0]LogDerivedDataCache: Loaded boot cache 0.51s 39MB C:/Users/Tim/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.01-16.51.27:824][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tim/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.01-16.51.27:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tim/Documents/Unreal Projects/Project1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.01-16.51.27:825][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.01-16.51.28:036][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.01-16.51.28:048][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.01-16.51.31:331][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.01-16.51.31:331][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.01-16.51.32:241][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.01-16.51.32:688][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.01-16.51.51:036][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.01-16.51.51:717][  0]SourceControl: Info Source control is disabled
+[2015.06.01-16.51.51:717][  0]SourceControl: Info Source control is disabled
+[2015.06.01-16.51.51:717][  0]SourceControl: Info Source control is disabled
+[2015.06.01-16.51.51:717][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.01-16.51.51:717][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.01-16.51.51:739][  0]SourceControl: Info Source control is disabled
+[2015.06.01-16.51.52:617][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.01-16.51.52:617][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.06.01-16.51.52:804][  0]LogEngine: Initializing Engine...
+[2015.06.01-16.51.55:069][  0]LogInit: XAudio2 using 'Lautsprecher/Kopfhörer (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.01-16.51.55:092][  0]LogInit: FAudioDevice initialized.
+[2015.06.01-16.51.55:216][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.01-16.51.55:252][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Tim/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.01-16.51.55:264][  0]LogInit: Texture streaming: Enabled
+[2015.06.01-16.51.55:481][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.01-16.51.55:481][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.01-16.51.55:482][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.01-16.51.55:482][  0]LogAnalytics: SetUserId c5fd52a24d6850d1c633029fc9284b73|9f6f6a0632e64490ab8dba32aeb92367|02faca1b-0e02-495b-954f-51d2c87ed7d6
+[2015.06.01-16.51.55:482][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.01-16.51.55:838][  0]LogInit: Transaction tracking system initialized
+[2015.06.01-16.51.56:480][  0]BlueprintLog: New page: Editor Load
+[2015.06.01-16.51.56:563][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.06.01-16.51.56:564][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.01-16.51.58:301][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.01-16.51.59:108][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.01-16.51.59:978][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.06.01-16.51.59:978][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.06.01-16.51.59:978][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2015.06.01-16.52.00:149][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.01-16.52.00:150][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.01-16.52.00:273][  0]LogConsoleResponse:Display: 
+[2015.06.01-16.52.00:628][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.01-16.52.01:722][  0]SourceControl: Info Source control is disabled
+[2015.06.01-16.52.01:722][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.01-16.52.01:776][  0]LightingResults: New page: Lighting Build
+[2015.06.01-16.52.01:830][  0]MapCheck: New page: Map Check
+[2015.06.01-16.52.01:830][  0]LightingResults: New page: Lighting Build
+[2015.06.01-16.52.01:880][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000004186520
+[2015.06.01-16.52.06:934][  0]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: CharacterMesh0
+[2015.06.01-16.52.06:969][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.01-16.52.07:316][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.01-16.52.07:318][  0]Cmd: MAP CHECKDEP
+[2015.06.01-16.52.07:318][  0]MapCheck: New page: FirstPersonExampleMap - Jun 1, 2015, 8:52:07 PM
+[2015.06.01-16.52.07:574][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 256.414ms to complete.
+[2015.06.01-16.52.07:575][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 5.852
+[2015.06.01-16.52.07:871][  0]LogCollectionManager: Loaded 0 collections in 0.003599 seconds
+[2015.06.01-16.52.07:909][  0]LogContentBrowser: Native class hierarchy populated in 0.0379 seconds. Added 1696 classes and 261 folders.
+[2015.06.01-16.52.08:086][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0121 seconds. Added 1 classes and 2 folders.
+[2015.06.01-16.52.08:212][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.01-16.52.08:214][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.01-16.52.08:224][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.01-16.52.08:253][  0]LogLoad: Full Startup: 51.15 seconds (BP compile: 1.19 seconds)
+[2015.06.01-16.52.08:615][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.06.01-16.52.08:904][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.06.01-16.52.09:321][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2015.06.01-16.52.12:100][  9]LogAssetRegistry: Asset discovery search completed in 15.5473 seconds
+[2015.06.01-16.52.30:582][580]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: DebugSkelMeshComponent_0
+[2015.06.01-16.52.30:582][580]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: DebugSkelMeshComponent_0
+[2015.06.01-16.52.30:706][580]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.06.01-16.52.32:479][683]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: DebugSkelMeshComponent_0
+[2015.06.01-16.52.32:614][683]LogRenderer:Warning: Reallocating scene render targets to support 1208x920 (Frame:808).
+[2015.06.01-16.52.32:614][683]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.06.01-16.53.42:471][328]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Modelle/Hausholzfällerklein2.fbx)
+[2015.06.01-16.53.42:485][328]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.06.01-16.53.42:485][328]LogFbx: ItemName: Geometry, ItemCount : 14
+[2015.06.01-16.53.42:485][328]LogFbx: ItemName: Model, ItemCount : 14
+[2015.06.01-16.53.59:489][328]LogFbx: Loading FBX Scene from ../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Modelle/Hausholzfällerklein2.fbx
+[2015.06.01-16.53.59:518][328]LogFbx: FBX Scene Loaded Succesfully
+[2015.06.01-16.53.59:522][328]LogFbx:Warning: Triangulating static mesh Cylinder.010
+[2015.06.01-16.53.59:660][328]LogFbx:Warning: Triangulating static mesh Cylinder.007
+[2015.06.01-16.53.59:783][328]LogFbx:Warning: Triangulating static mesh Cylinder.006
+[2015.06.01-16.53.59:814][328]LogFbx:Warning: Triangulating static mesh Cylinder.005
+[2015.06.01-16.53.59:985][328]LogFbx:Warning: Triangulating static mesh Cylinder.003
+[2015.06.01-16.54.00:166][328]LogFbx:Warning: Triangulating static mesh Cylinder.001
+[2015.06.01-16.54.00:200][328]LogFbx:Warning: Triangulating static mesh Cylinder.009
+[2015.06.01-16.54.00:233][328]LogFbx:Warning: Triangulating static mesh Cylinder.004
+[2015.06.01-16.54.00:427][328]LogFbx:Warning: Triangulating static mesh Cylinder
+[2015.06.01-16.54.00:471][328]LogFbx:Warning: Triangulating static mesh Cube.272
+[2015.06.01-16.54.02:405][328]LogFbx:Warning: Triangulating static mesh Cube.013
+[2015.06.01-16.54.02:495][328]LogFbx:Warning: Triangulating static mesh Cylinder.008
+[2015.06.01-16.54.02:624][328]LogFbx:Warning: Triangulating static mesh Cylinder.000
+[2015.06.01-16.54.02:893][328]LogFbx:Warning: Triangulating static mesh Cylinder.002
+[2015.06.01-16.54.03:076][328]LogFbx: == Initial material list:
+[2015.06.01-16.54.03:076][328]LogFbx: 0: None
+[2015.06.01-16.54.03:076][328]LogFbx: 1: None
+[2015.06.01-16.54.03:076][328]LogFbx: 2: None
+[2015.06.01-16.54.03:076][328]LogFbx: 3: None
+[2015.06.01-16.54.03:076][328]LogFbx: 4: None
+[2015.06.01-16.54.03:076][328]LogFbx: 5: None
+[2015.06.01-16.54.03:076][328]LogFbx: 6: None
+[2015.06.01-16.54.03:076][328]LogFbx: 7: None
+[2015.06.01-16.54.03:076][328]LogFbx: 8: None
+[2015.06.01-16.54.03:076][328]LogFbx: 9: None
+[2015.06.01-16.54.03:076][328]LogFbx: 10: None
+[2015.06.01-16.54.03:076][328]LogFbx: 11: None
+[2015.06.01-16.54.03:076][328]LogFbx: 12: None
+[2015.06.01-16.54.03:076][328]LogFbx: 13: None
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 1 -> 0
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 2 -> 0
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 3 -> 0
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 4 -> 0
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 5 -> 0
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 6 -> 0
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 7 -> 0
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 8 -> 0
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 9 -> 0
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 10 -> 0
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 11 -> 0
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 12 -> 0
+[2015.06.01-16.54.03:076][328]LogFbx:   remap 13 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx: == After sorting:
+[2015.06.01-16.54.03:077][328]LogFbx: 0: None
+[2015.06.01-16.54.03:077][328]LogFbx: == Mapping table:
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 0 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 1 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 2 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 3 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 4 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 5 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 6 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 7 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 8 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 9 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 10 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 11 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 12 -> 0
+[2015.06.01-16.54.03:077][328]LogFbx:   sort 13 -> 0
+[2015.06.01-16.54.03:092][328]LogStaticMesh: Building static mesh Hausholzfällerklein2...
+[2015.06.01-16.54.04:303][328]LogStaticMesh: Built static mesh [1211.804077ms] /Game/FirstPersonBP/Blueprints/Hausholzfällerklein2.Hausholzfällerklein2
+[2015.06.01-16.54.04:432][328]LogStaticMesh:Warning: Hausholzfällerklein2 has degenerate tangent bases which will result in incorrect shading. 
+[2015.06.01-16.54.06:473][328]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.06.01-16.54.06:474][328]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.06.01-16.54.09:024][449]LogActorFactory: Actor Factory created Hausholzfällerklein2
+[2015.06.01-16.54.11:617][599]LogActorFactory: Actor Factory created Hausholzfällerklein2
+[2015.06.01-16.54.12:912][648]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.01-16.54.12:913][648]PIE: New page: PIE session: FirstPersonExampleMap (Jun 1, 2015, 8:54:12 PM)
+[2015.06.01-16.54.12:987][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073854s)
+[2015.06.01-16.54.12:989][648]LogPlayLevel: PIE: World Init took: (0.001493s)
+[2015.06.01-16.54.12:989][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.075779s)
+[2015.06.01-16.54.13:354][648]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.01-16.54.13:357][648]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.01-16.54.13:407][648]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: CharacterMesh0
+[2015.06.01-16.54.13:408][648]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.06.01-18.54.13
+[2015.06.01-16.54.13:417][648]LogWorld: Bringing up level for play took: 0.059389
+[2015.06.01-16.54.13:420][648]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.005
+[2015.06.01-16.55.13:080][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.01-16.55.13:157][138]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012957240
+[2015.06.01-16.55.35:389][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000245CF6A0
+[2015.06.01-16.55.38:891][596]LogRenderer:Warning: Reallocating scene render targets to support 1432x928 (Frame:18193).
+[2015.06.01-16.56.39:545][280]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.01-16.56.39:545][280]PIE: New page: PIE session: FirstPersonExampleMap (Jun 1, 2015, 8:56:39 PM)
+[2015.06.01-16.56.39:603][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057492s)
+[2015.06.01-16.56.39:605][280]LogPlayLevel: PIE: World Init took: (0.001430s)
+[2015.06.01-16.56.39:605][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.059463s)
+[2015.06.01-16.56.39:655][280]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.01-16.56.39:658][280]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.01-16.56.39:710][280]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: CharacterMesh0
+[2015.06.01-16.56.39:711][280]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.06.01-18.56.39
+[2015.06.01-16.56.39:719][280]LogWorld: Bringing up level for play took: 0.059988
+[2015.06.01-16.56.39:722][280]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.693
+[2015.06.01-16.57.39:522][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.01-17.03.07:502][957]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FC079C0
+[2015.06.01-17.09.58:872][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.01-17.10.02:923][231]LogSavePackage: Save=3754.361084ms
+[2015.06.01-17.10.02:923][231]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/FirstPersonExampleMap_Auto19BFE6CB84F10B55CFEF15089A3D3E956.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.06.01-17.10.02:971][231]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 4.100
+[2015.06.01-17.10.02:971][231]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.100
+[2015.06.01-17.10.03:068][231]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/Hausholzfällerklein2] ([1] browsable assets)...
+[2015.06.01-17.10.03:136][231]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/Blueprints/Hausholzfällerklein2.Hausholzfällerklein2]
+[2015.06.01-17.10.03:136][231]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Hausholzfällerklein2]
+[2015.06.01-17.10.03:669][231]LogSavePackage: Save=524.005066ms
+[2015.06.01-17.10.03:671][231]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Hausholzfällerklein2_Auto13855BEE646CFD114FDC3C59F5679DB36.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Hausholzfällerklein2_Auto1.uasset'
+[2015.06.01-17.10.03:702][231]LogFileHelpers: Auto-saving content packages took 0.731
+[2015.06.01-17.47.21:394][643]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.01-17.47.21:394][643]PIE: New page: PIE session: FirstPersonExampleMap (Jun 1, 2015, 9:47:21 PM)
+[2015.06.01-17.47.21:466][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070712s)
+[2015.06.01-17.47.21:469][643]LogPlayLevel: PIE: World Init took: (0.003074s)
+[2015.06.01-17.47.21:471][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.075820s)
+[2015.06.01-17.47.21:520][643]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.06.01-17.47.21:524][643]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.06.01-17.47.21:592][643]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: CharacterMesh0
+[2015.06.01-17.47.21:593][643]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.06.01-19.47.21
+[2015.06.01-17.47.21:602][643]LogWorld: Bringing up level for play took: 0.077005
+[2015.06.01-17.47.21:606][643]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.184
+[2015.06.01-17.48.13:342][659]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.01-17.48.13:406][659]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B89B920
+[2015.06.01-17.48.23:553][ 55]LogSavePackage: Save=204.811249ms
+[2015.06.01-17.48.23:553][ 55]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Hausholzfällerklein29AC35AE44F907684D9174EB8DB56DB05.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Meshes/Hausholzfällerklein2.uasset'
+[2015.06.01-17.48.23:637][ 55]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.01-17.48.36:529][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Meshes/Material" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Meshes/Material.uasset" SILENT=true
+[2015.06.01-17.48.37:006][580]LogSavePackage: Save=473.197235ms
+[2015.06.01-17.48.37:006][580]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/MaterialD05170DF41BB6A00F31397A92C40F1E7.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Meshes/Material.uasset'
+[2015.06.01-17.48.37:086][580]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.01-17.48.37:483][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Character/Character3" FILE="../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Character/Character3.uasset" SILENT=true
+[2015.06.01-17.48.37:785][580]LogSavePackage: Save=271.194275ms
+[2015.06.01-17.48.37:785][580]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/Character3564BA2D74D8694E50609C0B2A70EEF01.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Character/Character3.uasset'
+[2015.06.01-17.48.44:321][821]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.01-17.48.44:397][821]LogMetaData: Removing '/Game/FirstPersonBP/Character/NewAnimBlueprint.NewAnimBlueprint:AnimGraph.AnimGraphNode_Root_4' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewAnimBlueprint.PackageMetaData'
+[2015.06.01-17.48.44:397][821]LogMetaData: Removing '/Game/FirstPersonBP/Character/NewAnimBlueprint.NewAnimBlueprint:EventGraph.K2Node_CallFunction_2678' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewAnimBlueprint.PackageMetaData'
+[2015.06.01-17.48.44:397][821]LogMetaData: Removing '/Game/FirstPersonBP/Character/NewAnimBlueprint.NewAnimBlueprint_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewAnimBlueprint.PackageMetaData'
+[2015.06.01-17.48.44:397][821]LogMetaData: Removing '/Game/FirstPersonBP/Character/NewAnimBlueprint.NewAnimBlueprint:EventGraph.K2Node_Event_193' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewAnimBlueprint.PackageMetaData'
+[2015.06.01-17.48.44:397][821]LogMetaData: Removing '/Game/FirstPersonBP/Character/NewAnimBlueprint.SKEL_NewAnimBlueprint_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/NewAnimBlueprint.PackageMetaData'
+[2015.06.01-17.48.44:791][821]LogSavePackage: Save=262.565369ms
+[2015.06.01-17.48.44:791][821]LogSavePackage: Moving '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Saved/NewAnimBlueprint8DAA665440CD87DEF04BFFA2019369EB.tmp' to '../../../../../../Users/Tim/Documents/Unreal Projects/Project1/Content/FirstPersonBP/Character/NewAnimBlueprint.uasset'
+[2015.06.01-17.48.46:087][821]LogSavePackage: Save=729.194214ms
+[2015.06.01-17.48.46:087][821]LogSavePackage: Moving '../../../../../../Users/Tim/Documen
